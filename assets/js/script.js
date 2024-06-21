@@ -50,3 +50,14 @@ const quizQuestions = [{
     answer: "14"
 },
 ];
+
+// Calling the Dom Elements by their ids
+let instructionsArea = document.getElementById('instructionsArea');
+let playButton = document.getElementById('playButton');
+let questionBox = document.getElementById('questionBox');
+let questionElement = document.getElementById('question');
+let answersContainer = document.getElementById('answersContainer');
+let restartButton = document.getElementById('restartButton');
+let correctDisplay = document.getElementById('correct');
+let incorrectDisplay = document.getElementById('incorrect');
+let gameEnd = document.getElementById('endGameScore');
