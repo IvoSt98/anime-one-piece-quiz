@@ -51,10 +51,6 @@ const quizQuestions = [{
 },
 ];
 
-// Event listeners for buttons
-playButton.addEventListener('click', startGame);
-restartButton.addEventListener('click', restartGame);
-
 // Calling the Dom Elements by their ids
 let instructionsArea = document.getElementById('instructionsArea');
 let playButton = document.getElementById('playButton');
@@ -65,6 +61,10 @@ let restartButton = document.getElementById('restartButton');
 let correctDisplay = document.getElementById('correct');
 let incorrectDisplay = document.getElementById('incorrect');
 let gameEnd = document.getElementById('endGameScore');
+
+// Event listeners for buttons
+playButton.addEventListener('click', startGame);
+restartButton.addEventListener('click', restartGame);
 
 // Start the quiz when Play Now button is clicked
 function startGame() {
