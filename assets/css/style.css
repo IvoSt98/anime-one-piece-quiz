@@ -14,8 +14,20 @@ body {
     background-attachment: fixed;
 }
 
+/* With this class was given blury background efect to some of the elements */
 .background{
     border-radius: 15px;
     background-color: #010203;
     opacity: 0.8;
+}
+
+/* Header */
+h1 {
+    padding: 10px;
+}
+
+/* Main */
+h2,
+h3 {
+    padding: 20px;
 }
