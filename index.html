@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    
+
     <!-- Conecting style.css with index.html-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>One Piece Quiz</title>
@@ -16,14 +16,14 @@
 <body>
     <!-- Header -->
     <header>
-        <h1>Anime Quiz</h1>
+        <h1 class="background">Anime Quiz</h1>
     </header>
 
     <!-- Main -->
     <main>
 
          <!-- Instruction section-->
-         <section id="instructionsArea">
+         <section id="instructionsArea" class="background">
             <h2>How to Play the One Piece Anime Quiz</h2>
             <div class="quizInfo">
                 <h3>
@@ -47,7 +47,7 @@
         </section>
 
          <!-- Questions section -->
-         <section id="questionBox" style="display: none;">
+         <section id="questionBox" class="background" style="display: none;">
             <h3>Quiz questions:</h3>
             <div id="question"></div>
             <div id="answersContainer">
@@ -62,7 +62,7 @@
 
         <!-- New section with div to show the result in end of the quiz-->
         <section>
-            <div id="endGameScore"></div>
+            <div id="endGameScore" class="background"></div>
         </section>
     </main>
 
@@ -70,7 +70,7 @@
     <footer>
 
         <!-- Restart button  -->
-        <div>
+        <div class="background">
             <button id="restartButton">Restart</button>
         </div>
     </footer>

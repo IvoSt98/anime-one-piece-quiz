@@ -13,3 +13,9 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
+
+.background{
+    border-radius: 15px;
+    background-color: #010203;
+    opacity: 0.8;
+}
