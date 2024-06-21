@@ -31,3 +31,8 @@ h2,
 h3 {
     padding: 20px;
 }
+
+/* The Play Button */
+#playButton {
+    margin-bottom: 50px;
+}
