@@ -61,3 +61,36 @@ let restartButton = document.getElementById('restartButton');
 let correctDisplay = document.getElementById('correct');
 let incorrectDisplay = document.getElementById('incorrect');
 let gameEnd = document.getElementById('endGameScore');
+
+// Start the quiz when Play Now button is clicked
+function startGame() {
+
+}
+
+/**
+ * When the btn is clicked then the game must show the corect and incorect 
+ * answers=0 and to show again the instructions menu
+ */
+function restartGame() {
+
+}
+
+// Display current question and answer choices
+function showQuestionAndChoices() {
+
+}
+
+// Check selected answer
+function checkAnswer() {
+
+}
+
+// Proceed to next question and choices
+function nextQuestionAndChoices() {
+
+}
+
+// Function to finish the quiz and to show the corect and incorect answers
+function finishQuiz() {
+
+}
