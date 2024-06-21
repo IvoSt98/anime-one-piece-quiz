@@ -51,6 +51,10 @@ const quizQuestions = [{
 },
 ];
 
+// Event listeners for buttons
+playButton.addEventListener('click', startGame);
+restartButton.addEventListener('click', restartGame);
+
 // Calling the Dom Elements by their ids
 let instructionsArea = document.getElementById('instructionsArea');
 let playButton = document.getElementById('playButton');
