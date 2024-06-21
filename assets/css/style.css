@@ -1,0 +1,15 @@
+/* Body */
+/* Adding color to the text, google font, background image which was given some style */
+body {
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    background-image: url("../images/hero-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    padding: 50px 10% 10%;
+    background-position: center center;
+    background-attachment: fixed;
+}
