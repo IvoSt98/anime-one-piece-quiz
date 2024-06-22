@@ -94,6 +94,15 @@ function showQuestionAndChoices() {
      let indexQ = quizQuestions[currentQuestionIndex].question;
      // Adding the question to the div
      questionElement.innerHTML = indexQ
+     // To clear previous choices
+    answersContainer.innerHTML = '';
+    // Adding the first choices and buttons for each choice
+    let indexA = quizQuestions[currentQuestionIndex].choices;
+    indexA.forEach(element => {
+        let btn = document.createElement('button');
+        btn.innerHTML = element;
+        answersContainer.appendChild(btn);
+    });
 }
 
 // Check selected answer
