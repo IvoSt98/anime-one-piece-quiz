@@ -66,6 +66,9 @@ let gameEnd = document.getElementById('endGameScore');
 playButton.addEventListener('click', startGame);
 restartButton.addEventListener('click', restartGame);
 
+// Quiz state variable
+let currentQuestionIndex = 0;
+
 // Start the quiz when Play Now button is clicked
 function startGame() {
     // Exchanging the instructionArea with questionBox when Play Button is clicked
@@ -87,6 +90,10 @@ function restartGame() {
 // Display current question and answer choices
 function showQuestionAndChoices() {
 
+     // Adding from the array quizQuestions the first index of question
+     let indexQ = quizQuestions[currentQuestionIndex].question;
+     // Adding the question to the div
+     questionElement.innerHTML = indexQ
 }
 
 // Check selected answer
