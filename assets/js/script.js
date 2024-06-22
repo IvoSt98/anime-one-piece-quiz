@@ -68,7 +68,12 @@ restartButton.addEventListener('click', restartGame);
 
 // Start the quiz when Play Now button is clicked
 function startGame() {
+    // Exchanging the instructionArea with questionBox when Play Button is clicked
+    instructionsArea.style.display = "none";
+    questionBox.style.display = "block";
 
+    //Sending to the next function
+    showQuestionAndChoices();
 }
 
 /**
