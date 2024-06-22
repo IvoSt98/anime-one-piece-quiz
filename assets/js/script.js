@@ -102,6 +102,8 @@ function showQuestionAndChoices() {
         let btn = document.createElement('button');
         btn.innerHTML = element;
         answersContainer.appendChild(btn);
+        // To be every btn clickeable and after that to show function nextQuestionAndChoices()
+        btn.setAttribute('onclick', 'nextQuestionAndChoices()');
     });
 }
 
@@ -112,7 +114,15 @@ function checkAnswer() {
 
 // Proceed to next question and choices
 function nextQuestionAndChoices() {
-
+     // Adding the next index in the array
+     currentQuestionIndex++;
+     /** If statement - to show if the index it's smaller 
+      * and the length to show again function showQuestionAndChoices() 
+      * for the next question and answer
+      *  */ 
+     if (currentQuestionIndex < quizQuestions.length) {
+         showQuestionAndChoices();
+     } 
 }
 
 // Function to finish the quiz and to show the corect and incorect answers
