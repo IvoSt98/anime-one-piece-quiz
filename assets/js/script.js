@@ -127,8 +127,7 @@ function nextQuestionAndChoices() {
      *  */
     if (currentQuestionIndex < quizQuestions.length) {
         showQuestionAndChoices();
-    }
-    else {
+    } else {
         finishQuiz()
     }
 }
