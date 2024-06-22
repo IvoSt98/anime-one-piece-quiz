@@ -1,54 +1,54 @@
 // Questions, options and asnwers array
 const quizQuestions = [{
-    question: "Who promised that they would never lose another fight until they defeated a certain someone?",
-    choices: ["Luffy", "Sanji", "Zoro", "Usopp"],
-    answer: "Zoro"
-},
-{
-    question: "How did Luffy get the scar under his eye?",
-    choices: ["Atacked by bandits", "Fight with animals", "Himself", "Fight with another villager"],
-    answer: "Himself"
-},
-{
-    question: "Who was the first member of the SH crew to try and recruit a new member besides Luffy?",
-    choices: ["Nami", "Sanji", "Zoro", "Usopp"],
-    answer: "Nami"
-},
-{
-    question: "What made Crocodile join Luffy's 'Rescue Ace Crew'?",
-    choices: ["Luffy", "Jinbei", "Ace", "Ivancov"],
-    answer: "Ace"
-},
-{
-    question: "Who was the first marine Admiral to be shown in the series?",
-    choices: ["Akainu", "Kizaru", "Aokiji", "Sengoku"],
-    answer: "Aokiji"
-},
-{
-    question: "Who gave Shanks the scar on his eye?",
-    choices: ["Dragon", "Marshall D", "Akainu", "Himself"],
-    answer: "Marshall D"
-},
-{
-    question: "How many crewmates did Luffy say he wanted at the beginning of the series?",
-    choices: ["9", "13", "10", "15"],
-    answer: "10"
-},
-{
-    question: "Who said- Zoro should cut diamond next?",
-    choices: ["Luffy", "Mihawk", "Kuina", "Daz Bones"],
-    answer: "Kuina"
-},
-{
-    question: "Who was the first recruit of the SH crew?",
-    choices: ["Nami", "Sanji", "Zoro", "Usopp"],
-    answer: "Zoro"
-},
-{
-    question: "How many confirmed D clan members are there?",
-    choices: ["8", "14", "11", "18"],
-    answer: "14"
-},
+        question: "Who promised that they would never lose another fight until they defeated a certain someone?",
+        choices: ["Luffy", "Sanji", "Zoro", "Usopp"],
+        answer: "Zoro"
+    },
+    {
+        question: "How did Luffy get the scar under his eye?",
+        choices: ["Atacked by bandits", "Fight with animals", "Himself", "Fight with another villager"],
+        answer: "Himself"
+    },
+    {
+        question: "Who was the first member of the SH crew to try and recruit a new member besides Luffy?",
+        choices: ["Nami", "Sanji", "Zoro", "Usopp"],
+        answer: "Nami"
+    },
+    {
+        question: "What made Crocodile join Luffy's 'Rescue Ace Crew'?",
+        choices: ["Luffy", "Jinbei", "Ace", "Ivancov"],
+        answer: "Ace"
+    },
+    {
+        question: "Who was the first marine Admiral to be shown in the series?",
+        choices: ["Akainu", "Kizaru", "Aokiji", "Sengoku"],
+        answer: "Aokiji"
+    },
+    {
+        question: "Who gave Shanks the scar on his eye?",
+        choices: ["Dragon", "Marshall D", "Akainu", "Himself"],
+        answer: "Marshall D"
+    },
+    {
+        question: "How many crewmates did Luffy say he wanted at the beginning of the series?",
+        choices: ["9", "13", "10", "15"],
+        answer: "10"
+    },
+    {
+        question: "Who said- Zoro should cut diamond next?",
+        choices: ["Luffy", "Mihawk", "Kuina", "Daz Bones"],
+        answer: "Kuina"
+    },
+    {
+        question: "Who was the first recruit of the SH crew?",
+        choices: ["Nami", "Sanji", "Zoro", "Usopp"],
+        answer: "Zoro"
+    },
+    {
+        question: "How many confirmed D clan members are there?",
+        choices: ["8", "14", "11", "18"],
+        answer: "14"
+    },
 ];
 
 // Calling the Dom Elements by their ids
@@ -74,7 +74,9 @@ function startGame() {
     // Exchanging the instructionArea with questionBox when Play Button is clicked
     instructionsArea.style.display = "none";
     questionBox.style.display = "block";
-
+    //Corect and Incorect answers to be equal to 0
+    correctAnswers = 0;
+    incorrectAnswers = 0;
     //Sending to the next function
     showQuestionAndChoices();
 }
@@ -90,11 +92,11 @@ function restartGame() {
 // Display current question and answer choices
 function showQuestionAndChoices() {
 
-     // Adding from the array quizQuestions the first index of question
-     let indexQ = quizQuestions[currentQuestionIndex].question;
-     // Adding the question to the div
-     questionElement.innerHTML = indexQ
-     // To clear previous choices
+    // Adding from the array quizQuestions the first index of question
+    let indexQ = quizQuestions[currentQuestionIndex].question;
+    // Adding the question to the div
+    questionElement.innerHTML = indexQ
+    // To clear previous choices
     answersContainer.innerHTML = '';
     // Adding the first choices and buttons for each choice
     let indexA = quizQuestions[currentQuestionIndex].choices;
@@ -103,26 +105,37 @@ function showQuestionAndChoices() {
         btn.innerHTML = element;
         answersContainer.appendChild(btn);
         // To be every btn clickeable and after that to show function nextQuestionAndChoices()
-        btn.setAttribute('onclick', 'nextQuestionAndChoices()');
+        btn.setAttribute('onclick', `checkAnswer('${element}')`);
     });
 }
 
 // Check selected answer
-function checkAnswer() {
-
+function checkAnswer(selectedAnswer) {
+    // Adding the correct answer
+    let correctAnswer = quizQuestions[currentQuestionIndex].answer;
+    // If the selected answer it's = to the correct or incorect answer, to be added index +1 to the right span
+    if (selectedAnswer === correctAnswer) {
+        correctAnswers++;
+        correctDisplay.innerText = correctAnswers;
+    } else {
+        incorrectAnswers++;
+        incorrectDisplay.innerText = incorrectAnswers;
+    }
+    // Countinue with the next function to show the questions and answers
+    nextQuestionAndChoices();
 }
 
 // Proceed to next question and choices
 function nextQuestionAndChoices() {
-     // Adding the next index in the array
-     currentQuestionIndex++;
-     /** If statement - to show if the index it's smaller 
-      * and the length to show again function showQuestionAndChoices() 
-      * for the next question and answer
-      *  */ 
-     if (currentQuestionIndex < quizQuestions.length) {
-         showQuestionAndChoices();
-     } 
+    // Adding the next index in the array
+    currentQuestionIndex++;
+    /** If statement - to show if the index it's smaller 
+     * and the length to show again function showQuestionAndChoices() 
+     * for the next question and answer
+     *  */
+    if (currentQuestionIndex < quizQuestions.length) {
+        showQuestionAndChoices();
+    }
 }
 
 // Function to finish the quiz and to show the corect and incorect answers
