@@ -81,14 +81,6 @@ function startGame() {
     showQuestionAndChoices();
 }
 
-/**
- * When the btn is clicked then the game must show the corect and incorect 
- * answers=0 and to show again the instructions menu
- */
-function restartGame() {
-
-}
-
 // Display current question and answer choices
 function showQuestionAndChoices() {
 
@@ -153,4 +145,17 @@ function finishQuiz() {
      If you have less it's good idea to start to watch more One Piece<br>
      <br>Your Correct Answers are: ${correctAnswers}<br>Your Incorect Answers are: ${incorrectAnswers}`;
     gameEnd.appendChild(newParagraph);
+}
+
+/**
+ * When the btn is clicked then the game must show the corect and incorect 
+ * answers=0 and to show again the instructions menu
+ */
+function restartGame() {
+    instructionsArea.style.display = "block";
+    questionBox.style.display = "none";
+    correctDisplay.innerText = 0;
+    incorrectDisplay.innerText = 0;
+    currentQuestionIndex = 0;
+    gameEnd.innerHTML = '';
 }
