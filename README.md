@@ -1,6 +1,8 @@
 # One Piece Anime Quiz
 Welcome to [One Piece Anime Quiz](https://ivost98.github.io/anime-one-piece-quiz/).
 
+![Responsice Mockup](screenshots/mainScreen.png)
+
 ## Table of Contents
 * [User Stories](#user-stories)
 * [Features](#features)
