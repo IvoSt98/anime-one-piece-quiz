@@ -56,16 +56,29 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 * The code was tested with [W3C Markup Validator](https://validator.w3.org/) and it was found a 1 warning.
 * [Click here to see the Result without bugs or warnings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F)
 * The code was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) without any bugs [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-* After [JSHint](https://jshint.com/) were found that there has two undefined variables and missing semicolon. Without any
+* After [JSHint Validator](https://jshint.com/) were found that there has two undefined variables and missing semicolon. Without any
 significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
+  + There are 7 functions in this file.
+  + Function with the largest signature take 1 arguments, while the median is 0.
+  + Largest function has 7 statements in it, while the median is 5.
+  + The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### Bugs
 
 * The warning after [W3C Markup Validator](https://validator.w3.org/) was that - `Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed`. 
 * After [W3C Markup Validator](https://validator.w3.org/) you can find the code [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/65d1fa209420c08aad57c8145e03d0b8afae4a5f) and how was fixed.
-* After [JSHint](https://jshint.com/) you can find the code [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/c1742081716b00f7b8d88419ee4572049857c6b2) and how was fixed.
+* After [JSHint Validator](https://jshint.com/) you can find the code [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/c1742081716b00f7b8d88419ee4572049857c6b2) and how was fixed.
 
 ### Further Testing
+
+1. Extensive browser testing was conducted across Google Chrome, Internet Explorer,Opera, Microsoft Edge, and Safari.
+2. The website was evaluated across various devices, including desktops and iPhones, to ensure responsive design.
+3. Feedback from friends and family members was sought to identify any bugs or user experience issues.
+
+Lighthouse testing for dekstops:
+![Lighthouse Testing](screenshots/lighthouse.png)
+
+Lighthouse testing for mobile screens:
 
 ### Testing the site pages
 
