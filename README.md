@@ -33,6 +33,12 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ## User Stories
 
+ * As user, I want to test my knowledge of "One Piece" so that I can see how much I remember about the series. Specifically, I want to be quizzed on key plot points, character developments, and significant events from the series to ensure I have a deep understanding of the anime's storyline.
+
+* As a user, I want immediate feedback on my answers so that I can learn from my mistakes. When I answer a question, I want to know right away if my answer was correct or incorrect.
+
+* As a user, I want the quiz to be responsive so that I can take it on any device, whether it's my phone, tablet, or computer. This includes ensuring that the layout adjusts smoothly to different screen sizes and that all interactive elements (like buttons and text fields) are easily usable on both touchscreens and traditional displays.
+
  ## Features
 
  ## Future Features
