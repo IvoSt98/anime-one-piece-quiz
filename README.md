@@ -71,8 +71,17 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 
 ### Further Testing
 
-1. Extensive browser testing was conducted across Google Chrome, Internet Explorer,Opera, Microsoft Edge, and Safari.
-2. The website was evaluated across various devices, including desktops and iPhones, to ensure responsive design.
+1. Extensive browser testing was conducted across:
++ Google Chrome
++ Internet Explorer
++ Opera
++ Microsoft Edge
++ Safari.
+2. The website has been tested on the following devices:
++ IPhone 12 Pro
++ IPhone 14 Pro Max
++ IPad pro
++ Asus Zenbook Duo
 3. Feedback from friends and family members was sought to identify any bugs or user experience issues.
 
 + Lighthouse testing on dekstop screens:
