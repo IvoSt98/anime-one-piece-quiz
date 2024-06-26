@@ -75,10 +75,15 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 2. The website was evaluated across various devices, including desktops and iPhones, to ensure responsive design.
 3. Feedback from friends and family members was sought to identify any bugs or user experience issues.
 
-Lighthouse testing for dekstops:
++ Lighthouse testing on dekstop screens:
 ![Lighthouse Testing](screenshots/lighthouse.png)
+![Lighthouse Testing](screenshots/lighthouseDekstop.png)
 
-Lighthouse testing for mobile screens:
++ Lighthouse testing on mobile screens:
+![Lighthouse Testing](screenshots/lighthouseTwo.png)
+![Lighthouse Testing](screenshots/lighthouseMobile.png)
+
+
 
 ### Testing the site pages
 
