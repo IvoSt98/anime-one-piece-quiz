@@ -1,6 +1,8 @@
 # One Piece Anime Quiz
 Welcome to [One Piece Anime Quiz](https://ivost98.github.io/anime-one-piece-quiz/).
 
+The project is a web-based quiz application designed to evaluate users' knowledge of the popular anime series "One Piece." The application presents a sequence of multiple-choice questions focused on the adventures of Monkey D. Luffy and his crew. The goal is to challenge the users' recall and comprehension of the series' content.
+
 ![Responsice Mockup](screenshots/mainScreen.png)
 
 ## Table of Contents
@@ -29,7 +31,7 @@ Welcome to [One Piece Anime Quiz](https://ivost98.github.io/anime-one-piece-quiz
    
 
 
-## User Stories
+ ## User Stories
 
  ## Features
 
