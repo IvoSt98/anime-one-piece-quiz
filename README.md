@@ -47,13 +47,27 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ## Wireframes
 
+In the planning stage to be created a wireframes were used an app called Balsamiq, which you can find in the next section- `Technology Used` .
+
+When the user open the website:
+
+![Wireframe when you start the quiz](screenshots/wireframeStart.png)
+
+When the user start to play the quiz:
+
+![Wireframe when you play the quiz](screenshots/wireframePlay.png)
+
+When the user finish with the quiz:
+
+![Wireframe when the game finish](screenshots/wireframeEnd.png)
+
  ## Technology Used
 
  + [HTML5](https://de.wikipedia.org/wiki/HTML5) and [CSS3](https://de.wikipedia.org/wiki/Cascading_Style_Sheets) were employed for code development.
  + [Jave Script](https://simple.wikipedia.org/wiki/JavaScript) for interactabilty and logic to wesbite.
  + [Google Fonts](https://fonts.google.com/) to style the text elements.
  + [Git](https://git-scm.com/) facilitated version control, with [Git Hub](https://github.com/) serving as the repository.
- + [Balsamiq](https://balsamiq.com/)  aided in creating wireframes for project visualization.
+ + [Balsamiq](https://balsamiq.com/) aided in creating wireframes for project visualization.
  + [Chrome Developer Tools](https://developer.chrome.com/docs/devtools) to view screen responsiveness on different screens and tools to test website.
 
  ## Testing
