@@ -49,6 +49,13 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ## Technology Used
 
+ + [HTML5](https://de.wikipedia.org/wiki/HTML5) and [CSS3](https://de.wikipedia.org/wiki/Cascading_Style_Sheets) were employed for code development.
+ + [Jave Script](https://simple.wikipedia.org/wiki/JavaScript) for interactabilty and logic to wesbite.
+ + [Google Fonts](https://fonts.google.com/) to style the text elements.
+ + [Git](https://git-scm.com/) facilitated version control, with [Git Hub](https://github.com/) serving as the repository.
+ + [Balsamiq](https://balsamiq.com/)  aided in creating wireframes for project visualization.
+ + [Chrome Developer Tools](https://developer.chrome.com/docs/devtools) to view screen responsiveness on different screens and tools to test website.
+
  ## Testing
 
 ### Code Validation
