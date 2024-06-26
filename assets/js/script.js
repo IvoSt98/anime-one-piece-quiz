@@ -66,8 +66,10 @@ let gameEnd = document.getElementById('endGameScore');
 playButton.addEventListener('click', startGame);
 restartButton.addEventListener('click', restartGame);
 
-// Quiz state variable
+// Quiz state variables
 let currentQuestionIndex = 0;
+let correctAnswers = 0;
+let incorrectAnswers = 0;
 
 // Start the quiz when Play Now button is clicked
 function startGame() {
@@ -87,7 +89,7 @@ function showQuestionAndChoices() {
     // Adding from the array quizQuestions the first index of question
     let indexQ = quizQuestions[currentQuestionIndex].question;
     // Adding the question to the div
-    questionElement.innerHTML = indexQ
+    questionElement.innerHTML = indexQ;
     // To clear previous choices
     answersContainer.innerHTML = '';
     // Adding the first choices and buttons for each choice
@@ -128,7 +130,7 @@ function nextQuestionAndChoices() {
     if (currentQuestionIndex < quizQuestions.length) {
         showQuestionAndChoices();
     } else {
-        finishQuiz()
+        finishQuiz();
     }
 }
 
