@@ -92,9 +92,73 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 ![Lighthouse Testing](screenshots/lighthouseTwo.png)
 ![Lighthouse Testing](screenshots/lighthouseMobile.png)
 
-
-
 ### Testing the site pages
+
+| Feature | Test steps | Expectation | Result |
+|-----    |----------    |----------   |--------|
+| First loading of the page |1. Open the website URL. 2. Observe the elements displayed on the page.| The header, instruction section, and buttons are displayed correctly. | Pass |
+| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| Instructions section is hidden, first question and answer buttons appear, and the score area is visible. | Pass |
+| Answer Buttons Onclick | 1. Click one of the answer buttons. 2. Observe the score area.| Score area updates with correct or incorrect answer count. And after that shows next question with possible answers. | Pass |
+| When the game ends | 1. Answer all questions in the quiz. 2. Observe the final screen.| Instruction section and questions are hidden, and a congratulatory message with score details appears.| Pass |
+| Restart Button Onclick | 1. Click the 'Restart' button at any time. 2. Observe the changes on the screen. |Score resets to zero, and the main instructions section is displayed. | Pass |
+
+#### Expaining:
+1. First Loading of the Page
+
+ Description: Verify the initial state of the homepage when the website is first loaded.
++ Open the website [One Piece Anime Quiz](https://ivost98.github.io/anime-one-piece-quiz/).
++ Check if the header, instruction section, and buttons ('Play' and 'Restart') are visible.
++ Expected Result: The header, instruction section, and 'Play' and 'Restart' buttons should be visible.
++ Status: Pass
+
+![Start the quiz](screenshots/startQuizEndQuiz.png)
+
+2. 'Play Now' OnClick
+
+ Description: Test the functionality of the 'Play Now' button to start the quiz.
++ Click the 'Play Now' button.
++ Verify if the instructions section is hidden and the quiz questions appear.
++ Expected Result: Instructions section should be hidden, and the first question with answer buttons and score area should be displayed.
++ Status: Pass
+
+![Play button onclick](screenshots/playButtonPressed.png)
+
+3. Answer Buttons OnClick
+
+Description: Ensure that clicking an answer button updates the score area.
++ Click one of the answer buttons.
++ Observe the score area for updates.
++ Expected Result: The score area should update with the correct or incorrect answer count.
++ Status: 
+
+About correct score:
+![Correct answers](screenshots/correctAnswer.png)
+About incorrect score:
+![Incorect answers](screenshots/incorrectScore.png)
+
+4. When the Game Ends
+
+Description: Verify the behavior when all quiz questions are answered.
++ Answer all the questions in the quiz.
++ Observe the final screen after the last question.
++ Expected Result: Instruction section and questions should be hidden, and a congratulatory message with the user's score should be displayed.
++ Status: Pass
+
+![End the game](screenshots/endGame.png)
+
+5. 'Restart' Button OnClick
+
+Description: Test the functionality of the 'Restart' button to reset the quiz.
++ Click the 'Restart' button at any point during the quiz.
++ Observe the changes on the screen.
++ Expected Result: The score should reset to zero, and the main instructions section should be displayed.
++ Status: Pass
+
+![End the quiz](screenshots/startQuizEndQuiz.png)
+
+6. Conclusion
+
+All tested features of the [One Piece Anime Quiz Website](https://ivost98.github.io/anime-one-piece-quiz/). function as expected. The website provides a smooth and engaging user experience, with all key functionalities working correctly. Future tests should include additional scenarios as new features are implemented
 
 ## Deployment
 
