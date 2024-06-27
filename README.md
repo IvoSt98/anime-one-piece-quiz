@@ -43,6 +43,14 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ### Typography
 
+The font chosen for this project is **Playfair Display**, a serif typeface. This selection has been made to ensure consistency and enhance readability throughout the entire application. 
+
+Key reasons for choosing Playfair Display:
+- **Consistency**: The serif style aligns with the overall design aesthetic of the project, providing a cohesive look and feel.
+- **Readability**: Playfair Display is designed to be highly readable, making it suitable for various screen sizes and resolutions.
+- **Elegance**: The serif design adds a touch of elegance, which complements the project's visual identity.
+
+By using Playfair Display, we aim to deliver a visually appealing and user-friendly experience.
 
  ### Color Scheme
 
