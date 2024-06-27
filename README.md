@@ -36,6 +36,20 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 * As a user, I want the quiz to be responsive so that I can take it on any device, whether it's my phone, tablet, or computer. This includes ensuring that the layout adjusts smoothly to different screen sizes and that all interactive elements (like buttons and text fields) are easily usable on both touchscreens and traditional displays.
 
  ## Features
+**Our Header**
+ ![Header](readme-screenshots/features/header.png)
+
+ **Our Instructions Section**
+ ![Instructions](readme-screenshots/features/instructions.png)
+
+ **Our Footer**
+ ![Footer](readme-screenshots/features/footer.png)
+
+ **Our Play Section**
+ ![Play Section](readme-screenshots/features/playSection.png)
+ 
+ **Our End Game Section**
+ ![End Game Section](readme-screenshots/features/endGame.png)
 
  ## Future Features
 
