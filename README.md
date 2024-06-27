@@ -37,6 +37,10 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ## Features
 **Our Header**
+
++ The header displays the name of the quiz at the top of the screen. 
++ It remains fixed in position throughout the game, serving as a constant reminder to the user of the quiz they are participating in.
+
  ![Header](readme-screenshots/features/header.png)
 
  **Our Instructions Section**
@@ -47,7 +51,7 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  **Our Play Section**
  ![Play Section](readme-screenshots/features/playSection.png)
- 
+
  **Our End Game Section**
  ![End Game Section](readme-screenshots/features/endGame.png)
 
