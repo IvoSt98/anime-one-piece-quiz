@@ -94,6 +94,7 @@ function startGame() {
     instructionsArea.style.display = "none";
     questionBox.style.display = "block";
     hiddenFooter.style.display = "block";
+    modalDiv.style.display = "none";
     correctAnswers = 0;
     incorrectAnswers = 0;
     showQuestionAndChoices();
@@ -172,8 +173,8 @@ function restartGame() {
     restartButton = modalDiv.style.display = "block";
 }
 
-function choiceYes(){
-    if( modalAnswerYes){
+function choiceYes() {
+    if (modalAnswerYes) {
         instructionsArea.style.display = "block";
         questionBox.style.display = "none";
         hiddenFooter.style.display = "none";
@@ -181,10 +182,11 @@ function choiceYes(){
         correctDisplay.innerText = 0;
         incorrectDisplay.innerText = 0;
         currentQuestionIndex = 0;
-        }
+    }
 }
-function choiceNo(){
-    if(modalAnswerNo){
-        modalDiv.style.display = "none"
-        }
+
+function choiceNo() {
+    if (modalAnswerNo) {
+        modalDiv.style.display = "none";
+    }
 }
