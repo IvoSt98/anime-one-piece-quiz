@@ -43,7 +43,15 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ### Typography
 
+
  ### Color Scheme
+
+ The colors are chosen with the following criteria:
+
+- **Text Color**: White
+- **Background Color**: Blurred Black
+
+The white text is used to ensure high visibility against the black background. The black background is slightly blurred to allow the background image to remain visible while maintaining the readability of the white text.
 
  ## Wireframes
 
