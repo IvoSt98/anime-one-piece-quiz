@@ -66,6 +66,16 @@ p {
     display: none;
 }
 
+/* The div for the end game score is hidden by default */
+#endGameScore {
+    display: none;
+}
+
+/* removing the bulet points in li */
+li {
+    list-style-type: none;
+}
+
 /* Footer */
 /* Restart Button */
 #restartButton {
@@ -74,10 +84,5 @@ p {
 
 /* The div for the restart button is hidden by default */
 #hidden {
-    display: none;
-}
-
-/* The div for the end game score is hidden by default */
-#endGameScore{
     display: none;
 }
