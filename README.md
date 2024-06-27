@@ -103,6 +103,18 @@ Which will be visible untill the end of the quiz.
  ![Play Section](readme-screenshots/features/playSection.png)
 
  **Our End Game Section**
+
+After the user answers all the quiz questions, the question and answer section is hidden, and a new endgame section appears:
+
+1. Quiz Completion Message:
++ The section begins with a concise message indicating that the quiz has ended, providing clarity to the user.
+
+2. Performance Evaluation:
++ A brief evaluation follows, indicating whether the user is characterized as a "true fan" or not based on their number of correct and incorrect answers.
+
+3. Review of Answers:
++ The user is presented with a summary of their correct and incorrect answers. This allows them to assess their knowledge and determine their level of familiarity with the quiz content.
+
  ![End Game Section](readme-screenshots/features/endGame.png)
 
  ## Future Features
