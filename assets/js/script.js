@@ -166,8 +166,9 @@ function finishQuiz() {
 function restartGame() {
     instructionsArea.style.display = "block";
     questionBox.style.display = "none";
+    hiddenFooter.style.display = "none";
+    gameEnd.style.display = "none";
     correctDisplay.innerText = 0;
     incorrectDisplay.innerText = 0;
     currentQuestionIndex = 0;
-    gameEnd.innerHTML = '';
 }
