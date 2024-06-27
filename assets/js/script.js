@@ -62,9 +62,11 @@ let correctDisplay = document.getElementById('correct');
 let incorrectDisplay = document.getElementById('incorrect');
 let gameEnd = document.getElementById('endGameScore');
 
-// Event listeners for buttons
-playButton.addEventListener('click', startGame);
-restartButton.addEventListener('click', restartGame);
+// Adding Dom Content Loaded and Event listeners for buttons
+document.addEventListener("DOMContentLoaded", (event) => {
+	playButton.addEventListener('click', startGame);
+	restartButton.addEventListener('click', restartGame);
+});
 
 // Quiz state variables
 let currentQuestionIndex = 0;
