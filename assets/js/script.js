@@ -165,14 +165,16 @@ function finishQuiz() {
     finalIncorrectAnswer.innerText = incorrectAnswers;
 }
 
-/**
- * When the btn is clicked then the game must show the corect and incorect 
- * answers=0 and to show again the instructions menu
+/** When the btn Restart is clicked then the function will show the modalDiv
  */
 function restartGame() {
     restartButton = modalDiv.style.display = "block";
 }
-
+/** When the user choose the possible answer yes from the modalDiv 
+ * then the quiz will start at the begining, will hide 
+ * everything and will leave only the instructionsArea
+ * Also the score will be update to zero
+ */
 function choiceYes() {
     if (modalAnswerYes) {
         instructionsArea.style.display = "block";
@@ -185,6 +187,8 @@ function choiceYes() {
     }
 }
 
+/** With possible answer No the modalDive will be hide again
+ */
 function choiceNo() {
     if (modalAnswerNo) {
         modalDiv.style.display = "none";
