@@ -31,7 +31,7 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
 * As a user, I want to test my knowledge of "One Piece" to see how much I remember about the series. Specifically, I want to be quizzed on key plot points, character developments, and significant events from the series to ensure I have a deep understanding of the anime's storyline.
 
-* As a user, I want immediate feedback on my answers so that I can learn from my mistakes. When I answer a question, I want to know immediatelyv if my answer is correct or incorrect.
+* As a user, I want immediate feedback on my answers so that I can learn from my mistakes. When I answer a question, I want to know immediately if my answer is correct or incorrect.
 
 * As a user, I want the quiz to be responsive so that I can take it on any device, whether my phone, tablet, or computer. This includes ensuring that the layout adjusts smoothly to different screen sizes and that all interactive elements (like buttons and text fields) are easily usable on both touchscreens and traditional displays.
 
@@ -166,7 +166,7 @@ When the user finishes with the quiz:
  ## Technology Used
 
  + [HTML5](https://de.wikipedia.org/wiki/HTML5) and [CSS3](https://de.wikipedia.org/wiki/Cascading_Style_Sheets) were employed for code development.
- + [Java Script](https://simple.wikipedia.org/wiki/JavaScript) for interactivity and logic the website.
+ + [Java Script](https://simple.wikipedia.org/wiki/JavaScript) for interactivity and logic of the website.
  + [Google Fonts](https://fonts.google.com/) to style the text elements.
  + [Git](https://git-scm.com/) facilitated version control, with [Git Hub](https://github.com/) serving as the repository.
  + [Balsamiq](https://balsamiq.com/) aided in creating wireframes for project visualization.
@@ -201,9 +201,11 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 + Microsoft Edge
 + Safari.
 2. The website has been tested on the following devices:
-+ IPhone 12 Pro
-+ IPhone 14 Pro Max
++ iPhone 12 Pro
++ iPhone 14 Pro Max
 + IPad pro
++ Galaxy Z Fold 5
++ Samsung Galaxy A51/71
 + Asus Zenbook Duo
 3. Feedback from friends and family members was sought to identify any bugs or user experience issues.
 
@@ -220,7 +222,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 | Feature | Test steps | Expectation | Result |
 |-----    |----------    |----------   |--------|
 | First loading of the page |1. Open the website URL. 2. Observe the elements displayed on the page.| The header, instruction section, and buttons are displayed correctly. | Pass |
-| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| The instructions section is hidden,the first question and answer buttons appear, and the scoring area is visible. | Pass |
+| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| The instructions section is hidden, the first question and answer buttons appear, and the scoring area is visible. | Pass |
 | Answer Buttons Onclick | 1. Click one of the answer buttons. 2. Observe the score area.| Score area updates with correct or incorrect answer count. After that show the next question with possible answers. | Pass |
 | When the game ends | 1. Answer all questions in the quiz. 2. Observe the final screen.| The instruction section and questions are hidden, and a congratulatory message with score details appears.| Pass |
 | Restart Button Onclick | 1. Click the 'Restart' button at any time. 2. Observe the changes on the screen. |The score resets to zero, and the main instructions section is displayed. | Pass |
