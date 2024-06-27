@@ -1,4 +1,5 @@
-// Questions, options and asnwers array
+/** Questions, options and asnwers array
+ */
 const quizQuestions = [{
         question: "Who promised that they would never lose another fight until they defeated a certain someone?",
         choices: ["Luffy", "Sanji", "Zoro", "Usopp"],
@@ -51,7 +52,8 @@ const quizQuestions = [{
     },
 ];
 
-// Calling the Dom Elements by their ids
+/**  Calling the Dom Elements by their ids
+ */
 let instructionsArea = document.getElementById('instructionsArea');
 let playButton = document.getElementById('playButton');
 let questionBox = document.getElementById('questionBox');
@@ -62,54 +64,60 @@ let correctDisplay = document.getElementById('correct');
 let incorrectDisplay = document.getElementById('incorrect');
 let gameEnd = document.getElementById('endGameScore');
 
-// Adding Dom Content Loaded and Event listeners for buttons
+/** Adding Dom Content Loaded and Event listeners for buttons
+ */
 document.addEventListener("DOMContentLoaded", (event) => {
-	playButton.addEventListener('click', startGame);
-	restartButton.addEventListener('click', restartGame);
+    playButton.addEventListener('click', startGame);
+    restartButton.addEventListener('click', restartGame);
 });
 
-// Quiz state variables
+/** Quiz state variables
+ */
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
 
-// Start the quiz when Play Now button is clicked
+/** The function will start the quiz when Play Now button is clicked
+ * First the function will exchanged the instructionArea with questionBox when Play Button is clicked
+ * After that will make the corect and incorect answers to be equal to 0
+ * And in the end will send to the next function
+ */
 function startGame() {
-    // Exchanging the instructionArea with questionBox when Play Button is clicked
     instructionsArea.style.display = "none";
     questionBox.style.display = "block";
-    //Corect and Incorect answers to be equal to 0
     correctAnswers = 0;
     incorrectAnswers = 0;
-    //Sending to the next function
     showQuestionAndChoices();
 }
 
-// Display current question and answer choices
+/** The function will display current question and answer choices
+ * First will be added from the array quizQuestions the first index of question
+ * Second will be added the question to the div
+ * Will be cleared previous choices
+ * After that will be added the first choices and buttons for each choice
+ * And in the end To be every btn clickeable and after that to show function nextQuestionAndChoices()
+ *  */
 function showQuestionAndChoices() {
-
-    // Adding from the array quizQuestions the first index of question
     let indexQ = quizQuestions[currentQuestionIndex].question;
-    // Adding the question to the div
     questionElement.innerHTML = indexQ;
-    // To clear previous choices
     answersContainer.innerHTML = '';
-    // Adding the first choices and buttons for each choice
     let indexA = quizQuestions[currentQuestionIndex].choices;
     indexA.forEach(element => {
         let btn = document.createElement('button');
         btn.innerHTML = element;
         answersContainer.appendChild(btn);
-        // To be every btn clickeable and after that to show function nextQuestionAndChoices()
         btn.setAttribute('onclick', `checkAnswer('${element}')`);
     });
 }
 
-// Check selected answer
+/** The function will check selected answer
+ * First will be added the correct answer
+ * After that willbe added if statement If the selected answer it's = to the correct 
+ * or incorect answer, to be added index +1 to the right span
+ * And in the end the function will send to the next function
+ */
 function checkAnswer(selectedAnswer) {
-    // Adding the correct answer
     let correctAnswer = quizQuestions[currentQuestionIndex].answer;
-    // If the selected answer it's = to the correct or incorect answer, to be added index +1 to the right span
     if (selectedAnswer === correctAnswer) {
         correctAnswers++;
         correctDisplay.innerText = correctAnswers;
@@ -117,18 +125,17 @@ function checkAnswer(selectedAnswer) {
         incorrectAnswers++;
         incorrectDisplay.innerText = incorrectAnswers;
     }
-    // Countinue with the next function to show the questions and answers
     nextQuestionAndChoices();
 }
 
-// Proceed to next question and choices
+/** The function will proceed to next question and choices
+ * First will be added the next index in the array
+ *  If statement - to show if the index it's smaller 
+ * and the length to show again function showQuestionAndChoices()
+ *  for the next question and answer
+ */
 function nextQuestionAndChoices() {
-    // Adding the next index in the array
     currentQuestionIndex++;
-    /** If statement - to show if the index it's smaller 
-     * and the length to show again function showQuestionAndChoices() 
-     * for the next question and answer
-     *  */
     if (currentQuestionIndex < quizQuestions.length) {
         showQuestionAndChoices();
     } else {
