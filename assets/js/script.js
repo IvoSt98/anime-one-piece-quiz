@@ -66,12 +66,17 @@ let gameEnd = document.getElementById('endGameScore');
 let hiddenFooter = document.getElementById('hidden');
 let finalCorrectAnswer = document.getElementById('finalCorrectScore');
 let finalIncorrectAnswer = document.getElementById('finalIncorrectScore');
+let modalDiv = document.getElementById("myModal");
+let modalAnswerYes = document.getElementById("yesClose");
+let modalAnswerNo = document.getElementById("noClose");
 
 /** Adding Dom Content Loaded and Event listeners for buttons
  */
 document.addEventListener("DOMContentLoaded", (event) => {
     playButton.addEventListener('click', startGame);
     restartButton.addEventListener('click', restartGame);
+    modalAnswerYes.addEventListener('click', choiceYes);
+    modalAnswerNo.addEventListener('click', choiceNo);
 });
 
 /** Quiz state variables
@@ -164,11 +169,12 @@ function finishQuiz() {
  * answers=0 and to show again the instructions menu
  */
 function restartGame() {
-    instructionsArea.style.display = "block";
-    questionBox.style.display = "none";
-    hiddenFooter.style.display = "none";
-    gameEnd.style.display = "none";
-    correctDisplay.innerText = 0;
-    incorrectDisplay.innerText = 0;
-    currentQuestionIndex = 0;
+    restartButton = modalDiv.style.display = "block";
+}
+
+function choiceYes(){
+
+}
+function choiceNo(){
+
 }
