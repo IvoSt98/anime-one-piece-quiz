@@ -184,5 +184,7 @@ function choiceYes(){
         }
 }
 function choiceNo(){
-
+    if(modalAnswerNo){
+        modalDiv.style.display = "none"
+        }
 }
