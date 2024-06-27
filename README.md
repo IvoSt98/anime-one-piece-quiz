@@ -69,6 +69,15 @@ The project is a web-based quiz application designed to evaluate users' knowledg
  ![Instructions](readme-screenshots/features/instructions.png)
 
  **Our Footer**
+
+ The game interface footer features a prominently displayed "Restart" button designed to offer users the ability to reset the game and initiate a new session at their discretion. Here’s how it operates:
+
+ + The "Restart" button remains consistently visible throughout the entirety of the gaming session. This ensures that users can easily opt to reset the game and commence a fresh playthrough whenever desired.
+
+ + Its primary function is to reset all game elements and settings to their initial state. This includes clearing user progress, scores, or any changes made during the previous gameplay session.
+
+ + The button is strategically positioned within the footer for easy access and is visually distinct to ensure users can locate it effortlessly without disrupting gameplay.
+ 
  ![Footer](readme-screenshots/features/footer.png)
 
  **Our Play Section**
