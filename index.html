@@ -70,11 +70,14 @@
 
         <!-- New div to show the result in end of the quiz-->
         <div id="endGameScore" class="background">
-        <div><ul>You Completed the Quiz!</ul>
-            <li>You are a real fan if you have more then 7 correct answers!</li>
-            <li> If you have less it's good idea to start to watch more One Piece</li>
-             <li>Your Correct Answers are:</li><div id="finalCorrectScore"></div>
-             <li>Your Incorect Answers are:</li><div id="finalIncorrectScore"></div>
+            <div>
+                <ul>You Completed the Quiz!</ul>
+                <li>You are a real fan if you have more then 7 correct answers!</li>
+                <li> If you have less it's good idea to start to watch more One Piece</li>
+                <li>Your Correct Answers are:</li>
+                <div id="finalCorrectScore"></div>
+                <li>Your Incorect Answers are:</li>
+                <div id="finalIncorrectScore"></div>
             </div>
         </div>
     </main>
@@ -85,6 +88,24 @@
         <!-- Restart button  -->
         <div id="hidden" class="background">
             <button id="restartButton">Restart</button>
+
+            <!-- The Modal -->
+            <div id="myModal">
+
+                <!-- Modal content -->
+                <div class="modalContent">
+                    <div class="modalHeader">
+                        <h2>Confirmation Message:</h2>
+                    </div>
+                    <div class="modalBody">
+                        <p>Would you really like to Restart</p>
+                        <p>One Piece Anime Quiz</p>
+                    </div>
+                    <button id="yesClose">Yes, i would like.</button>
+                    <button id="noClose">No, i would like to countinue.</button>
+                </div>
+
+            </div>
         </div>
     </footer>
     <!-- Conecting script.js with index.html-->
