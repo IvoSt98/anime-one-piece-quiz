@@ -64,6 +64,8 @@ let correctDisplay = document.getElementById('correct');
 let incorrectDisplay = document.getElementById('incorrect');
 let gameEnd = document.getElementById('endGameScore');
 let hiddenFooter = document.getElementById('hidden');
+let finalCorrectAnswer = document.getElementById('finalCorrectScore');
+let finalIncorrectAnswer = document.getElementById('finalIncorrectScore');
 
 /** Adding Dom Content Loaded and Event listeners for buttons
  */
@@ -145,12 +147,16 @@ function nextQuestionAndChoices() {
     }
 }
 
-// Function to finish the quiz and to show the corect and incorect answers
+/**Function to finish the quiz and to show the corect and incorect answers
+ * Hiding the instructionsArea and questionBox and showing the gameEnd
+ * Making the Final score to show
+ */
 function finishQuiz() {
-    // Hiding the instructionsArea and questionBox
     instructionsArea.style.display = "none";
     questionBox.style.display = "none";
-    gameEnd.style.display ="block"
+    gameEnd.style.display = "block"
+    finalCorrectAnswer.innerText = correctAnswers;
+    finalIncorrectAnswer.innerText = incorrectAnswers;
 }
 
 /**
