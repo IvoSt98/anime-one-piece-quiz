@@ -3,7 +3,7 @@ Welcome to [One Piece Anime Quiz](https://ivost98.github.io/anime-one-piece-quiz
 
 The project is a web-based quiz application designed to evaluate users' knowledge of the popular anime series "One Piece." The application presents a sequence of multiple-choice questions focused on the adventures of Monkey D. Luffy and his crew. The goal is to challenge the users' recall and comprehension of the series' content.
 
-![Responsice Mockup](screenshots/mainScreen.png)
+![Responsice Mockup](readme-screenshots/mainScreen.png)
 
 ## Table of Contents
 * [User Stories](#user-stories)
@@ -73,15 +73,15 @@ In the planning stage to be created a wireframes were used an app called Balsami
 
 When the user open the website:
 
-![Wireframe when you start the quiz](screenshots/wireframeStart.png)
+![Wireframe when you start the quiz](readme-screenshots/wireframeStart.png)
 
 When the user start to play the quiz:
 
-![Wireframe when you play the quiz](screenshots/wireframePlay.png)
+![Wireframe when you play the quiz](readme-screenshots/wireframePlay.png)
 
 When the user finish with the quiz:
 
-![Wireframe when the game finish](screenshots/wireframeEnd.png)
+![Wireframe when the game finish](readme-screenshots/wireframeEnd.png)
 
  ## Technology Used
 
@@ -128,12 +128,12 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 3. Feedback from friends and family members was sought to identify any bugs or user experience issues.
 
 + Lighthouse testing on dekstop screens:
-![Lighthouse Testing](screenshots/lighthouse.png)
-![Lighthouse Testing](screenshots/lighthouseDekstop.png)
+![Lighthouse Testing](readme-screenshots/lighthouse.png)
+![Lighthouse Testing](readme-screenshots/lighthouseDekstop.png)
 
 + Lighthouse testing on mobile screens:
-![Lighthouse Testing](screenshots/lighthouseTwo.png)
-![Lighthouse Testing](screenshots/lighthouseMobile.png)
+![Lighthouse Testing](readme-screenshots/lighthouseTwo.png)
+![Lighthouse Testing](readme-screenshots/lighthouseMobile.png)
 
 ### Testing the site pages
 
@@ -154,7 +154,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 + Expected Result: The header, instruction section, and 'Play' and 'Restart' buttons should be visible.
 + Status: Pass
 
-![Start the quiz](screenshots/startQuizEndQuiz.png)
+![Start the quiz](readme-screenshots/startQuizEndQuiz.png)
 
 2. 'Play Now' OnClick
 
@@ -164,7 +164,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 + Expected Result: Instructions section should be hidden, and the first question with answer buttons and score area should be displayed.
 + Status: Pass
 
-![Play button onclick](screenshots/playButtonPressed.png)
+![Play button onclick](readme-screenshots/playButtonPressed.png)
 
 3. Answer Buttons OnClick
 
@@ -175,9 +175,9 @@ Description: Ensure that clicking an answer button updates the score area.
 + Status: 
 
 About correct score:
-![Correct answers](screenshots/correctAnswer.png)
+![Correct answers](readme-screenshots/correctAnswer.png)
 About incorrect score:
-![Incorect answers](screenshots/incorrectScore.png)
+![Incorect answers](readme-screenshots/incorrectScore.png)
 
 4. When the Game Ends
 
@@ -187,7 +187,7 @@ Description: Verify the behavior when all quiz questions are answered.
 + Expected Result: Instruction section and questions should be hidden, and a congratulatory message with the user's score should be displayed.
 + Status: Pass
 
-![End the game](screenshots/endGame.png)
+![End the game](readme-screenshots/endGame.png)
 
 5. 'Restart' Button OnClick
 
@@ -197,7 +197,7 @@ Description: Test the functionality of the 'Restart' button to reset the quiz.
 + Expected Result: The score should reset to zero, and the main instructions section should be displayed.
 + Status: Pass
 
-![End the quiz](screenshots/startQuizEndQuiz.png)
+![End the quiz](readme-screenshots/startQuizEndQuiz.png)
 
 6. Conclusion
 
