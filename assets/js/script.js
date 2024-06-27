@@ -63,6 +63,7 @@ let restartButton = document.getElementById('restartButton');
 let correctDisplay = document.getElementById('correct');
 let incorrectDisplay = document.getElementById('incorrect');
 let gameEnd = document.getElementById('endGameScore');
+let hiddenFooter = document.getElementById('hidden');
 
 /** Adding Dom Content Loaded and Event listeners for buttons
  */
@@ -85,6 +86,7 @@ let incorrectAnswers = 0;
 function startGame() {
     instructionsArea.style.display = "none";
     questionBox.style.display = "block";
+    hiddenFooter.style.display = "block";
     correctAnswers = 0;
     incorrectAnswers = 0;
     showQuestionAndChoices();

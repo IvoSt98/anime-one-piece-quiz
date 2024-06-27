@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Other meta content -->
-        <meta name="author" content="Ivo Stoykov">
-        <meta name="keywords"
-            content="anime, manga, one piece, quiz, interactive, game ">
-        <meta name="description"
-            content=" The One Piece Anime Quiz it's designed to evaluate users' knowledge of the popular anime series One Piece. ">
-    
+    <!-- Other meta content -->
+    <meta name="author" content="Ivo Stoykov">
+    <meta name="keywords" content="anime, manga, one piece, quiz, interactive, game ">
+    <meta name="description"
+        content=" The One Piece Anime Quiz it's designed to evaluate users' knowledge of the popular anime series One Piece. ">
+
     <!-- Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>One Piece Quiz</title>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -29,8 +30,8 @@
     <!-- Main -->
     <main>
 
-         <!-- Instruction section-->
-         <section id="instructionsArea" class="background">
+        <!-- Instruction section-->
+        <section id="instructionsArea" class="background">
             <h2>Instruction How To Play </h2>
             <div class="quizInfo">
                 <h3>
@@ -49,12 +50,12 @@
                     <br>
                     And don't forget! You can always press the Restart and to start again!
                 </p>
-                </div>
-                <button id="playButton">Play Now</button>
+            </div>
+            <button id="playButton">Play Now</button>
         </section>
 
-         <!-- Questions section -->
-         <section id="questionBox" class="background" style="display: none;">
+        <!-- Questions section -->
+        <section id="questionBox" class="background">
             <h3>Let's see if you're a real Straw Hat pirate or just a deckhand!</h3>
             <div id="question"></div>
             <div id="answersContainer">
@@ -68,18 +69,19 @@
         </section>
 
         <!-- New div to show the result in end of the quiz-->
-            <div id="endGameScore" class="background"></div>
+        <div id="endGameScore" class="background"></div>
     </main>
 
     <!-- Footer -->
     <footer>
 
         <!-- Restart button  -->
-        <div class="background">
+        <div id="hidden" class="background">
             <button id="restartButton">Restart</button>
         </div>
     </footer>
     <!-- Conecting script.js with index.html-->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
