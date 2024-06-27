@@ -39,6 +39,12 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ## Future Features
 
+1. **Quiz Difficulty Levels**: Implement a section to select quiz difficulty (easy, medium, hard) to cater to various knowledge levels.
+2. **Enhanced Answer Feedback**: Improve the color feedback system by displaying answers in red or green to indicate correctness immediately.
+3. **End-of-Game Feedback**: Enhance the post-game section with more detailed text, providing feedback on whether the player is a true fan based on their performance.
+4. **Dynamic Timer**: Introduce a timer feature that adjusts based on the selected difficulty level, providing an appropriate challenge for each level.
+5. **Subscription Feature**: Add a subscription section where users can opt-in to receive notifications about future quizzes.
+
  ## Typography and Color Scheme
 
  ### Typography
