@@ -77,10 +77,29 @@ The project is a web-based quiz application designed to evaluate users' knowledg
  + Its primary function is to reset all game elements and settings to their initial state. This includes clearing user progress, scores, or any changes made during the previous gameplay session.
 
  + The button is strategically positioned within the footer for easy access and is visually distinct to ensure users can locate it effortlessly without disrupting gameplay.
- 
+
  ![Footer](readme-screenshots/features/footer.png)
 
  **Our Play Section**
+
+After the user presses the "PLAY NOW" button and the instruction section is hidden, a new section appears presenting the quiz questions and answers:
+
+1. Motivational Message:
++ The section begins with a brief motivational message aimed at engaging the user and sparking their interest in the quiz.
+Which will be visible untill the end of the quiz.
+
+2. First Question:
++ The initial quiz question is prominently displayed under the motivational message.
+
+3. Possible Answers:
++ Four possible answers are given below the question. Depending on the answer type (true/false), the score indicator will be updated for correct and incorrect answers
+
+4. Navigation to Next Question:
++ Upon selecting an answer, the user is automatically directed to the subsequent question along with its set of possible answers.
+
+5. Score Tracking:
++ The user's score updates dynamically based on their responses. The interface displays the number of correct and incorrect answers as the quiz progresses, providing real-time feedback on performance.
+
  ![Play Section](readme-screenshots/features/playSection.png)
 
  **Our End Game Section**
