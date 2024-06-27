@@ -76,3 +76,8 @@ p {
 #hidden {
     display: none;
 }
+
+/* The div for the end game score is hidden by default */
+#endGameScore{
+    display: none;
+}

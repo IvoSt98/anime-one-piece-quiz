@@ -150,13 +150,7 @@ function finishQuiz() {
     // Hiding the instructionsArea and questionBox
     instructionsArea.style.display = "none";
     questionBox.style.display = "none";
-    // Creating new paragraph and giving content
-    let newParagraph = document.createElement("p");
-    newParagraph.innerHTML = `<br>You Completed the Quiz!<br>
-    <br>You are a real fan if you have more then 7 correct answers!<br>
-     If you have less it's good idea to start to watch more One Piece<br>
-     <br>Your Correct Answers are: ${correctAnswers}<br>Your Incorect Answers are: ${incorrectAnswers}`;
-    gameEnd.appendChild(newParagraph);
+    gameEnd.style.display ="block"
 }
 
 /**
