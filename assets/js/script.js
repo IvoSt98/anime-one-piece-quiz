@@ -181,6 +181,7 @@ function choiceYes() {
         questionBox.style.display = "none";
         hiddenFooter.style.display = "none";
         gameEnd.style.display = "none";
+        modalDiv.style.display = "none";
         correctDisplay.innerText = 0;
         incorrectDisplay.innerText = 0;
         currentQuestionIndex = 0;
