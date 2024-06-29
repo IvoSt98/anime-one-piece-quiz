@@ -63,8 +63,8 @@
 
             <!-- The idea for the code below was taken from Love Maths project-->
             <div class="scoreArea">
-                <p class="scores">Correct Answers: <span id="correct">0</span></p>
-                <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
+                <p class="scores ">Correct Answers: <span id="correct" class="colorGreen">0</span></p>
+                <p class="scores">Incorrect Answers: <span id="incorrect" class="colorRed">0</span></p>
             </div>
         </section>
 
@@ -74,10 +74,10 @@
                 <ul>You Completed the Quiz!</ul>
                 <li>You are a real fan if you have more then 7 correct answers!</li>
                 <li> If you have less it's good idea to start to watch more One Piece</li>
-                <li>Your Correct Answers are:</li>
-                <div id="finalCorrectScore"></div>
+                <li >Your Correct Answers are:</li>
+                <div id="finalCorrectScore" class="colorGreen"></div>
                 <li>Your Incorect Answers are:</li>
-                <div id="finalIncorrectScore"></div>
+                <div id="finalIncorrectScore" class="colorRed"></div>
             </div>
         </div>
     </main>
@@ -95,14 +95,16 @@
             <!-- Modal content -->
             <div id="modalContent">
                 <div id="modalHeader">
-                    <h2>Confirmation Message:</h2>
+                    <h2 class="reduceParamethers ">Attention Pirate!</h2>
                 </div>
                 <div id="modalBody">
                     <p>Would you really like to Restart</p>
-                    <p>One Piece Anime Quiz</p>
+                    <p class="reduceParamethers ">One Piece Anime Quiz?</p>
                 </div>
-                <button id="yesClose">Yes, i would like.</button>
-                <button id="noClose">No, i would like to countinue.</button>
+                <div id="modalFooter">
+                <button id="yesClose" class="reduceBtn ">Yes, i would like.</button>
+                <button id="noClose" class="reduceBtn" >No, countinue.</button>
+            </div>
             </div>
         
         </div>
