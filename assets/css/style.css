@@ -147,3 +147,26 @@ li {
 #hidden {
     display: none;
 }
+
+    .popUpImage {
+        max-width: 100%;
+        width: 250px;
+        max-height: 100%;
+        border-radius: 50%;
+        margin-top: 5%;
+        order: 1
+    }
+
+#modalContent {
+    display: flex;
+}
+
+#modalContent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}

@@ -63,7 +63,7 @@
 
             <!-- The idea for the code below was taken from Love Maths project-->
             <div class="scoreArea">
-                <p class="scores ">Correct Answers: <span id="correct" class="colorGreen">0</span></p>
+                <p class="scores">Correct Answers: <span id="correct" class="colorGreen">0</span></p>
                 <p class="scores">Incorrect Answers: <span id="incorrect" class="colorRed">0</span></p>
             </div>
         </section>
@@ -74,7 +74,7 @@
                 <ul>You Completed the Quiz!</ul>
                 <li>You are a real fan if you have more then 7 correct answers!</li>
                 <li> If you have less it's good idea to start to watch more One Piece</li>
-                <li >Your Correct Answers are:</li>
+                <li>Your Correct Answers are:</li>
                 <div id="finalCorrectScore" class="colorGreen"></div>
                 <li>Your Incorect Answers are:</li>
                 <div id="finalIncorrectScore" class="colorRed"></div>
@@ -91,22 +91,28 @@
         </div>
         <!-- The idea for the  Modal Box was taken from W3Schools-->
         <div id="myModal">
-        
             <!-- Modal content -->
             <div id="modalContent">
-                <div id="modalHeader">
-                    <h2 class="reduceParamethers ">Attention Pirate!</h2>
+                <div><img src="assets/images/popUp.jpg" alt="Pop up image." class="popUpImage ">
                 </div>
-                <div id="modalBody">
-                    <p>Would you really like to Restart</p>
-                    <p class="reduceParamethers ">One Piece Anime Quiz?</p>
+                <!-- Modal Text Container -->
+                <div class="textContainer">
+                    <!-- Modal Header -->
+                    <div id="modalHeader">
+                        <h2 class="reduceParamethers ">Attention Future Pirate!</h2>
+                    </div>
+                    <!-- Modal Body -->
+                    <div id="modalBody">
+                        <p>Would you really like to Restart</p>
+                        <p class="reduceParamethers">One Piece Anime Quiz?</p>
+                    </div>
+                    <!-- Modal Footer with buttons -->
+                    <div id="modalFooter">
+                        <button id="yesClose" class="reduceBtn ">YES, I WOULD LIKE.</button>
+                        <button id="noClose" class="reduceBtn">NO, COUNTINUE.</button>
+                    </div>
                 </div>
-                <div id="modalFooter">
-                <button id="yesClose" class="reduceBtn ">YES, I WOULD LIKE.</button>
-                <button id="noClose" class="reduceBtn" >NO, COUNTINUE.</button>
             </div>
-            </div>
-        
         </div>
     </footer>
     <!-- Conecting script.js with index.html-->
