@@ -102,6 +102,17 @@ ul {
     padding-right: 20px;
 }
 
+/* Changing the siza and padding of the question */
+#question {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+/* Changing the padding to the score aread */
+#scoreArea {
+    padding-top: 30px;
+}
+
 /* Footer */
 /* Some of the ideas for the code below for the modal box were taken from W3School */
 /* Styling the whole modal when the Restart btn is clicked to popup */
@@ -166,6 +177,7 @@ ul {
 
 /* Restart Button */
 #restartButton {
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
