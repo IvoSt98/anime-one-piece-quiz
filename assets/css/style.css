@@ -137,6 +137,15 @@ li {
     color: white;
 }
 
+/* Styling the pop up img */
+.popUpImage {
+    max-width: 100%;
+    width: 150px;
+    max-height: 100%;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
 /* Footer */
 /* Restart Button */
 #restartButton {
@@ -148,25 +157,23 @@ li {
     display: none;
 }
 
+@media screen and (min-width: 992px) {
+
+    /* Making the pop up img responsive for bigger screens */
     .popUpImage {
-        max-width: 100%;
-        width: 250px;
-        max-height: 100%;
-        border-radius: 50%;
-        margin-top: 5%;
+        width: 300px;
         order: 1
     }
 
-#modalContent {
-    display: flex;
-}
+    /* The whole modal content to be responsive */
+    #modalContent {
+        display: flex;
+        align-items: flex-start;
+    }
 
-#modalContent {
-    display: flex;
-    align-items: flex-start;
-}
-
-.textContainer {
-    display: flex;
-    flex-direction: column;
+    /* Responsive text container */
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+    }
 }
