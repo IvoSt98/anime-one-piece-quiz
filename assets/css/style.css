@@ -212,7 +212,8 @@ ul {
         display: flex;
         flex-direction: column;
     }
-
+    
+/* The code below changed some of the font-size and padding of ids and classes */
     #myModal {
         padding-top: 100px;
     }
