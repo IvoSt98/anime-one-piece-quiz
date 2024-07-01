@@ -102,7 +102,7 @@ ul {
     padding-top: 30px;
     padding-left: 0px;
     font-size: 25px;
-    
+
 }
 
 /* Giving a padding to Question Section h3 and the div for the question */
@@ -126,6 +126,7 @@ ul {
 /* Some of the ideas for the code below for the modal box were taken from W3School */
 /* Styling the whole modal when the Restart btn is clicked to popup */
 #myModal {
+    padding-top: 100px;
     display: none;
     position: fixed;
     z-index: 1;
@@ -142,7 +143,7 @@ ul {
     background-color: #ffffff;
     margin: 8% auto;
     border: 2px solid #888;
-    width: 45%;
+    width: 65%;
     border-radius: 15px;
 }
 
@@ -214,7 +215,7 @@ ul {
         flex-direction: column;
     }
 
-/* The code below changed some of the font-size and padding of ids and classes */
+    /* The code below changed some of the font-size and padding of ids and classes */
     #myModal {
         padding-top: 100px;
     }
@@ -246,5 +247,9 @@ ul {
 
     ul {
         font-size: 30px;
+    }
+
+    #modalContent {
+        width: 40%;
     }
 }
