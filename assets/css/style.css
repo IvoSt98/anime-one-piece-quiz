@@ -2,7 +2,6 @@
 /* Adding color to the text, google font, background image which was given some style */
 body {
     color: #ffffff;
-    font-size: 130%;
     text-align: center;
     font-family: "Playfair Display", serif;
     background-image: url("../images/hero-img.jpg");
@@ -43,7 +42,7 @@ button {
     margin-top: 30px;
     margin-right: 10px;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px 20px;
 }
 
@@ -90,7 +89,7 @@ li {
 /* Styling the font size of the 2nd and 3rd child of the list */
 li:nth-child(2),
 li:nth-child(3) {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* Styling the 3rd child of the list */
@@ -102,7 +101,7 @@ li:nth-child(3) {
 ul {
     padding-top: 30px;
     padding-left: 0px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* Giving a padding to Question Section h3 and the div for the question */
@@ -113,7 +112,7 @@ ul {
 
 /* Changing the siza and padding of the question */
 #question {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 20px;
 }
 
@@ -129,7 +128,6 @@ ul {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
@@ -152,7 +150,6 @@ ul {
     margin-top: 0px;
     margin-bottom: 5px;
     padding-top: 0px;
-    padding-bottom: 20px;
 }
 
 /* Changing the style of the yes and no btns*/
@@ -160,7 +157,7 @@ ul {
     margin-top: 10px;
     margin-right: 10px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 5px 20px;
 }
 
@@ -178,7 +175,7 @@ ul {
 /* Styling the pop up img */
 .popUpImage {
     max-width: 100%;
-    width: 150px;
+    width: 120px;
     max-height: 100%;
     border-radius: 50%;
     margin-top: 5%;
@@ -214,5 +211,38 @@ ul {
     .textContainer {
         display: flex;
         flex-direction: column;
+    }
+
+    #myModal {
+        padding-top: 100px;
+    }
+
+    body {
+        font-size: 130%;
+    }
+
+    #question {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 25px;
+    }
+
+    .reduceParamethers {
+        padding-bottom: 20px;
+    }
+
+    .reduceBtn {
+        font-size: 20px;
+    }
+
+    li:nth-child(2),
+    li:nth-child(3) {
+        font-size: 25px;
+    }
+
+    ul {
+        font-size: 25px;
     }
 }
