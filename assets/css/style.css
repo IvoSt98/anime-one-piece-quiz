@@ -101,7 +101,8 @@ li:nth-child(3) {
 ul {
     padding-top: 30px;
     padding-left: 0px;
-    font-size: 20px;
+    font-size: 25px;
+    
 }
 
 /* Giving a padding to Question Section h3 and the div for the question */
@@ -212,7 +213,7 @@ ul {
         display: flex;
         flex-direction: column;
     }
-    
+
 /* The code below changed some of the font-size and padding of ids and classes */
     #myModal {
         padding-top: 100px;
@@ -244,6 +245,6 @@ ul {
     }
 
     ul {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
