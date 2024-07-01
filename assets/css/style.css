@@ -55,7 +55,7 @@ button {
 
 /* Giving a color to the numbers in the score area */
 .colorGreen {
-    color: chartreuse;
+    color: #7FFF00;
 }
 
 .colorRed {
@@ -85,6 +85,11 @@ li {
     list-style-type: none;
 }
 
+/* Removing the padding for the ul */
+ul {
+    padding-left: 0px;
+}
+
 /* Some of the ideas for the code below were taken from W3School */
 /* Styling the whole modal when the Restart btn is clicked to popup */
 #myModal {
@@ -101,8 +106,8 @@ li {
 /* Styling the content of the modal box */
 #modalContent {
     padding: 20px;
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #ffffff;
     margin: 8% auto;
     border: 2px solid #888;
     width: 45%;
@@ -111,10 +116,10 @@ li {
 
 /* Changing the paramethers of some elements in the popup box */
 .reduceParamethers {
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 /* Changing the style of the yes and no btns*/
@@ -128,13 +133,13 @@ li {
 
 /* Styling the yes and no btns */
 #yesClose {
-    background-color: green;
-    color: white;
+    background-color: #008000;
+    color: #ffffff;
 }
 
 #noClose {
-    background-color: red;
-    color: white;
+    background-color: #FF0800;
+    color: #ffffff;
 }
 
 /* Styling the pop up img */
@@ -161,6 +166,7 @@ li {
 
     /* Making the pop up img responsive for bigger screens */
     .popUpImage {
+        height: 300px;
         width: 300px;
         order: 1
     }
