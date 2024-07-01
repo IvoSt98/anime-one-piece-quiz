@@ -30,7 +30,7 @@ h1 {
 /* H2 and H3 elements*/
 h2,
 h3 {
-    padding: 20px;
+    padding-top: 20px;
 }
 
 /* The Play Button */
@@ -50,7 +50,7 @@ button {
 /* Style for the scores */
 .scores {
     display: inline-block;
-    padding:10px ;
+    padding: 10px;
 }
 
 /* Giving a color to the numbers in the score area */
@@ -86,7 +86,7 @@ li {
 }
 
 /* Styling the 3rd child of the list */
-li:nth-child(3){
+li:nth-child(3) {
     padding-bottom: 15px;
 }
 
@@ -96,7 +96,13 @@ ul {
     padding-left: 0px;
 }
 
-/* Some of the ideas for the code below were taken from W3School */
+/* Giving a padding to Question Section h3 and the div for the question */
+.padding {
+    padding: 0 20px;
+}
+
+/* Footer */
+/* Some of the ideas for the code below for the modal box were taken from W3School */
 /* Styling the whole modal when the Restart btn is clicked to popup */
 #myModal {
     display: none;
@@ -157,7 +163,6 @@ ul {
     margin-top: 5%;
 }
 
-/* Footer */
 /* Restart Button */
 #restartButton {
     margin-bottom: 30px;
