@@ -80,9 +80,17 @@ p {
     display: none;
 }
 
-/* removing the bulet points in li */
+/* Removing the bulet points in li */
 li {
     list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Styling the font size of the 2nd and 3rd child of the list */
+li:nth-child(2),
+li:nth-child(3) {
+    font-size: 25px;
 }
 
 /* Styling the 3rd child of the list */
@@ -94,6 +102,7 @@ li:nth-child(3) {
 ul {
     padding-top: 30px;
     padding-left: 0px;
+    font-size: 25px;
 }
 
 /* Giving a padding to Question Section h3 and the div for the question */
