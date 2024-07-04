@@ -234,11 +234,11 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 
 | Feature | Test steps | Expectation | Result |
 |-----    |----------    |----------   |--------|
-| First loading of the page |1. Open the website URL. 2. Observe the elements displayed on the page.| The header, instruction section, and buttons are displayed correctly. | Pass |
-| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| The instructions section is hidden, the first question and answer buttons appear, and the scoring area is visible. | Pass |
-| Answer Buttons Onclick | 1. Click one of the answer buttons. 2. Observe the score area.| Score area updates with correct or incorrect answer count. After that show the next question with possible answers. | Pass |
-| When the game ends | 1. Answer all questions in the quiz. 2. Observe the final screen.| The instruction section and questions are hidden, and a congratulatory message with score details appears.| Pass |
-| Restart Button Onclick | 1. Click the 'Restart' button at any time. 2. Observe the changes on the screen. |The score resets to zero, and the main instructions section is displayed. | Pass |
+| First loading of the page |1. Open the website URL. 2. Observe the elements displayed on the page.| The header, instruction section, and the button PLAY are displayed correctly. | Pass |
+| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| The instructions section is hidden, the first question and answer buttons appear, the scoring area is visible and the RESTART button shows up corectly. | Pass |
+| Answer Buttons Onclick | 1. Click one of the answer buttons. 2. Observe the score area.| Score area updates with correct or incorrect answer count. After that show the next question with possible answers. The RESTART button countinue to stay untill the end of the quiz. | Pass |
+| When the game ends | 1. Answer all questions in the quiz. 2. Observe the final screen.| The instruction section and questions are hidden, and a congratulatory message with score details appears. Under the section the RESTART button still stay on a possition.| Pass |
+| Restart Button Onclick | 1. Click the 'Restart' button at any time. 2. Observe the changes on the screen. |When the RESTART button is clicked, a confirmation modal box is triggered to appear. The modal box initiates with an appropriate image, followed by a warning message and a question, accompanied by 'Yes, i would like.' and 'No,countinue.' buttons. Upon pressing the 'Yes, i would like.' button, the entire questionnaire resets, starting from the beginning. Pressing the 'No,countinue.' button closes the modal box and the quiz resumes from its current state. | Pass |
 
 #### Explaining:
 1. First Loading of the Page
@@ -256,7 +256,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
  Description: Test the functionality of the 'Play Now' button to start the quiz.
 + Click the 'Play Now' button.
 + Verify if the instructions section is hidden and the quiz questions appear.
-+ Expected Result: The instructions section should be hidden, and the first question with answer buttons and score area should be displayed.
++ Expected Result: The instructions section should be hidden, and the first question with answer buttons, score area should be displayed and the RESTART button shows up corectly..
 + Status: Pass
 
 ![Play button onclick](readme-screenshots/playButtonPressed.png)
@@ -266,8 +266,8 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 Description: Ensure that clicking an answer button updates the scoring  area.
 + Click one of the answer buttons.
 + Observe the score area for updates.
-+ Expected Result: The score area should update with the correct or incorrect answer count.
-+ Status: 
++ Expected Result: The score area should update with the correct or incorrect answer count. The RESTART button countinue to stay untill the end of the quiz.
++ Status: Pass
 
 About the correct score:
 ![Correct answers](readme-screenshots/correctAnswer.png)
@@ -279,7 +279,7 @@ About the incorrect score:
 Description: Verify the behavior when all quiz questions are answered.
 + Answer all the questions in the quiz.
 + Observe the final screen after the last question.
-+ Expected Result: The instruction section and questions should be hidden, and a congratulatory message with the user's score should be displayed.
++ Expected Result: The instruction section and questions are hidden, and a congratulatory message with score details appears. Under the section the RESTART button still stay on a possition.
 + Status: Pass
 
 ![End the game](readme-screenshots/endGame.png)
@@ -289,10 +289,19 @@ Description: Verify the behavior when all quiz questions are answered.
 Description: Test the functionality of the 'Restart' button to reset the quiz.
 + Click the 'Restart' button at any point during the quiz.
 + Observe the changes on the screen.
-+ Expected Result: The score should reset to zero, and the main instructions section should be displayed.
++ Expected Result: When the RESTART button is clicked, a confirmation modal box is triggered to appear. The modal box initiates with an appropriate image, followed by a warning message and a question, accompanied by 'Yes, i would like.' and 'No,countinue.' buttons. Upon pressing the 'Yes, i would like.' button, the entire questionnaire resets, starting from the beginning. Pressing the 'No,countinue.' button closes the modal box and the quiz resumes from its current state."
 + Status: Pass
 
-![End the quiz](readme-screenshots/startQuizEndQuiz.png)
+![Restart the quiz](readme-screenshots/afterRestartIsClicked.png)
+
+After the button "Yes, i would like" is clicked:
+
+![Restart the quiz YES ](readme-screenshots/startQuizEndQuiz.png)
+
+Ater the button "No, countinue." is cliked:
+
+![Restart the quiz NO ](readme-screenshots/correctAnswer.png)
+
 
 6. Conclusion
 
