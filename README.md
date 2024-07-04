@@ -159,6 +159,10 @@ When the user starts to play the quiz:
 
 ![Wireframe when you play the quiz](readme-screenshots/wireframePlay.png)
 
+When the user click to restart the quiz:
+
+![Wireframe when you restart the quiz](readme-screenshots/wireframeRestart.png)
+
 When the user finishes with the quiz:
 
 ![Wireframe when the game finish](readme-screenshots/wireframeEnd.png)
