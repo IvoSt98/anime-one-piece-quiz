@@ -186,7 +186,7 @@ When the user finishes with the quiz:
 
 ### Code Validation
 
-* The code was tested with [W3C Markup Validator](https://validator.w3.org/) and it was found a 1 warning.
+* The code was tested with [W3C Markup Validator](https://validator.w3.org/) and it was found a warning and a bug.
 * [Click here to see the Result without bugs or warnings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F)
 * The code was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) without any bugs [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * After the [JSHint Validator](https://jshint.com/) was found that there were two undefined variables and missing semicolons. Without any
@@ -197,9 +197,12 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
   + The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### Bugs
-
+1. After [W3C Markup Validator](https://validator.w3.org/).
 * The warning after the [W3C Markup Validator](https://validator.w3.org/) was that - `Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed`. 
-* After the [W3C Markup Validator](https://validator.w3.org/), you can find the code [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/65d1fa209420c08aad57c8145e03d0b8afae4a5f) and how was fixed.
+* The warning you can find [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/65d1fa209420c08aad57c8145e03d0b8afae4a5f) and how was fixed.
+* The [bug](https://github.com/IvoSt98/anime-one-piece-quiz/commit/25f51c8edbd5e8890762c07fc3e2ffec0f99f641) it was because the ul tag it was to the wrong place, the bug was fixed.
+
+2. After [JSHint Validator](https://jshint.com/).
 * After [JSHint Validator](https://jshint.com/) you can find the code [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/c1742081716b00f7b8d88419ee4572049857c6b2) and how was fixed.
 
 ### Further Testing
