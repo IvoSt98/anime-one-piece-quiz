@@ -160,7 +160,7 @@ function nextQuestionAndChoices() {
 function finishQuiz() {
     instructionsArea.style.display = "none";
     questionBox.style.display = "none";
-    gameEnd.style.display = "block"
+    gameEnd.style.display = "block";
     finalCorrectAnswer.innerText = correctAnswers;
     finalIncorrectAnswer.innerText = incorrectAnswers;
 }
