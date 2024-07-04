@@ -215,7 +215,8 @@ ul {
         flex-direction: column;
     }
 
-    /* The code below changed some of the font-size and padding of ids and classes */
+    /* The code below changed some of the font-size and padding of ids and classes
+    to be responsive */
     #myModal {
         padding-top: 100px;
     }
@@ -224,22 +225,16 @@ ul {
         font-size: 130%;
     }
 
-    #question {
-        font-size: 25px;
-    }
-
-    button {
-        font-size: 25px;
+    .reduceBtn {
+        font-size: 20px;
     }
 
     .reduceParamethers {
         padding-bottom: 20px;
     }
 
-    .reduceBtn {
-        font-size: 20px;
-    }
-
+    #question,
+    button,
     li:nth-child(2),
     li:nth-child(3) {
         font-size: 25px;
