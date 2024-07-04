@@ -191,9 +191,9 @@ When the user finishes with the quiz:
 * The code was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) without any bugs [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * After the [JSHint Validator](https://jshint.com/) was found that there were two undefined variables and missing semicolons. Without any
 significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
-  + There are 7 functions in this file.
-  + The function with the largest signature takes 1 argument, while the median is 0.
-  + The largest function has 7 statements in it, while the median is 5.
+  + There are 10 functions in this file.
+  + Function with the largest signature take 1 arguments, while the median is 0.
+  + Largest function has 9 statements in it, while the median is 4.5.
   + The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ### Bugs
