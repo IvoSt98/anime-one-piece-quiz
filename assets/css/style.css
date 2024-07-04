@@ -86,23 +86,25 @@ li {
     padding-right: 20px;
 }
 
-/* Styling the font size of the 2nd and 3rd child of the list */
+/* Styling the first, secound and third child of the ul list */
+li:nth-child(1){
+    font-size: 25px;
+    padding-bottom: 25px;
+}
 li:nth-child(2),
 li:nth-child(3) {
     font-size: 20px;
 }
 
-/* Styling the 3rd child of the list */
 li:nth-child(3) {
     padding-bottom: 15px;
 }
 
 /* Removing the padding for the ul */
 ul {
+    margin-bottom: 0px;
     padding-top: 30px;
     padding-left: 0px;
-    font-size: 25px;
-
 }
 
 /* Giving a padding to Question Section h3 and the div for the question */
@@ -233,15 +235,15 @@ ul {
         padding-bottom: 20px;
     }
 
+    li:nth-child(1) {
+        font-size: 30px;
+    }
+
     #question,
     button,
     li:nth-child(2),
     li:nth-child(3) {
         font-size: 25px;
-    }
-
-    ul {
-        font-size: 30px;
     }
 
     #modalContent {
