@@ -145,7 +145,12 @@ By using Playfair Display, we aim to deliver a visually appealing and user-frien
  ### Color Scheme
 
 + The white text is used to ensure high visibility against the black background. The black background is slightly blurred to allow the background image to remain visible while maintaining the readability of the white text.
-+ 
+
++ For correct and incorrect answers, corresponding colors have been added: green for correct answers and red for incorrect answers. For the pop-up box, different shades of red and green were used to complement the white background.
+
+This is the color scheme with all colors used in the project!
+
+![Color Scheme](readme-screenshots/colorScheme.png)
 
  ## Wireframes
 
