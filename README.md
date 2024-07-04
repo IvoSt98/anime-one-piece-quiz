@@ -322,9 +322,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ## Credits
 
 ### Content
-+ The idea for the score section is from [Love Maths Project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/01-putting-the-basics-in-place/02-writing-some-html-part1/index.html)
-+ Guidance about Java Script code is from [Code Institute](https://codeinstitute.net/de/bildungsgutschein/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=16493764737&hsa_grp=132915436966&hsa_ad=635790877675&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw-O6zBhASEiwAOHeGxUZA9Vmia-upw7RdcmqjkSctoFqm75GZYhMuyr6GjIB2UdizcDwlnxoCHLgQAvD_BwE), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/)
++ The idea for the score section is from [Love Maths Project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/01-putting-the-basics-in-place/02-writing-some-html-part1/index.html).
++ Guidance about Java Script code is from [Code Institute](https://codeinstitute.net/de/bildungsgutschein/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=16493764737&hsa_grp=132915436966&hsa_ad=635790877675&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw-O6zBhASEiwAOHeGxUZA9Vmia-upw7RdcmqjkSctoFqm75GZYhMuyr6GjIB2UdizcDwlnxoCHLgQAvD_BwE), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/).
++ The idea and part of the code for the Modal Box were seen and taken from [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp).
 + The font utilized in this website is from [Google Fonts](https://fonts.google.com/).
 
 ### Media
-+ The background image was taken from [Alpha Coders ](https://wall.alphacoders.com/big.php?i=1099923)
++ The background image was taken from [Alpha Coders](https://wall.alphacoders.com/big.php?i=1099923).
++ The Pop-Up image when the Restart button is clicked it's taken from [Pinterest DEIVISCC on DeviantArt](https://www.pinterest.com/pin/691021136561159205/).
