@@ -68,18 +68,6 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
  ![Instructions](readme-screenshots/features/instructions.png)
 
- **Our Footer**
-
- The game interface footer features a prominently displayed "Restart" button designed to offer users the ability to reset the game and initiate a new session at their discretion. Here’s how it operates:
-
- + The "Restart" button remains consistently visible throughout the entirety of the gaming session. This ensures that users can easily opt to reset the game and commence a fresh playthrough whenever desired.
-
- + Its primary function is to reset all game elements and settings to their initial state. This includes clearing user progress, scores, or any changes made during the previous gameplay session.
-
- + The button is strategically positioned within the footer for easy access and is visually distinct to ensure users can locate it effortlessly without disrupting gameplay.
-
- ![Footer](readme-screenshots/features/footer.png)
-
  **Our Play Section**
 
 After the user presses the "PLAY NOW" button and the instruction section is hidden, a new section appears presenting the quiz questions and answers:
@@ -104,18 +92,34 @@ Which will be visible until the end of the quiz.
 
  **Our End Game Section**
 
-After the user answers all the quiz questions, the question and answer section is hidden, and a new endgame section appears:
+After the user answers all the quiz questions, the question and answer section is hidden, and a new End Game section appears:
 
 1. Quiz Completion Message:
 + The section begins with a concise message indicating that the quiz has ended, providing clarity to the user.
 
 2. Performance Evaluation:
-+ A brief evaluation follows, indicating whether the user is characterized as a "true fan" or not based on their number of correct and incorrect answers.
++ A small message follows, indicating whether the user is characterized as a "true fan" or not based on their number of correct and incorrect answers.
 
 3. Review of Answers:
 + The user is presented with a summary of their correct and incorrect answers. This allows them to assess their knowledge and determine their level of familiarity with the quiz content.
 
- ![End Game Section](readme-screenshots/features/endGame.png)
+ ![End Quiz Section](readme-screenshots/features/endGame.png)
+
+ **Our Footer**
+
+ The quiz interface footer features a prominently displayed "Restart" button designed to offer users the ability to reset the quiz and initiate a new session at their discretion. Here’s how it operates:
+
+ + The "Restart" button becomes visible after the "PLAY" button is pressed and remains visible until the quiz ends. When the "Restart" button is clicked, a modal box appears to confirm the user's intent to restart the quiz, preventing accidental restarts.
+
+ + The button is strategically positioned within the footer for easy access and is visually distinct to ensure users can locate it effortlessly without disrupting gameplay.
+
+ ![Footer](readme-screenshots/features/footer.png)
+
+ + Its primary function is to reset all quiz elements and settings to their initial state. This includes clearing user progress, scores, or any changes made during the previous gameplay session.
+
+ + The modal box initially displays a small message to attract the user's attention. This is followed by a concise question to ensure the user truly wants to restart the qiuz. The modal then presents two buttons: one to confirm the restart and another to continue the quiz.
+
+ ![Footer Pop-up Image](readme-screenshots/features/restartOnClick.png)
 
  ## Future Features
 
@@ -140,12 +144,8 @@ By using Playfair Display, we aim to deliver a visually appealing and user-frien
 
  ### Color Scheme
 
- The colors are chosen with the following criteria:
-
-- **Text Color**: White
-- **Background Color**: Blurred Black
-
-The white text is used to ensure high visibility against the black background. The black background is slightly blurred to allow the background image to remain visible while maintaining the readability of the white text.
++ The white text is used to ensure high visibility against the black background. The black background is slightly blurred to allow the background image to remain visible while maintaining the readability of the white text.
++ 
 
  ## Wireframes
 
