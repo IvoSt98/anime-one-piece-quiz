@@ -87,6 +87,7 @@ let incorrectAnswers = 0;
 
 /** The function will start the quiz when Play Now button is clicked
  * First the function will exchanged the instructionArea with questionBox when Play Button is clicked
+ * Second will hide the the modal box and will show the the footer
  * After that will make the corect and incorect answers to be equal to 0
  * And in the end will send to the next function
  */
@@ -122,7 +123,7 @@ function showQuestionAndChoices() {
 
 /** The function will check selected answer
  * First will be added the correct answer
- * After that willbe added if statement If the selected answer it's = to the correct 
+ * After that will be added if statement. If the selected answer it's = to the correct 
  * or incorect answer, to be added index +1 to the right span
  * And in the end the function will send to the next function
  */
@@ -140,9 +141,10 @@ function checkAnswer(selectedAnswer) {
 
 /** The function will proceed to next question and choices
  * First will be added the next index in the array
- *  If statement - to show if the index it's smaller 
- * and the length to show again function showQuestionAndChoices()
- *  for the next question and answer
+ * If statement - to show if the index it's smaller 
+ * than the length to show again function showQuestionAndChoices()
+ * for the next question and answer
+ * else will send to the finishQuiz()
  */
 function nextQuestionAndChoices() {
     currentQuestionIndex++;
@@ -153,7 +155,7 @@ function nextQuestionAndChoices() {
     }
 }
 
-/**Function to finish the quiz and to show the corect and incorect answers
+/** Function to finish the quiz and to show the corect and incorect answers
  * Hiding the instructionsArea and questionBox and showing the gameEnd
  * Making the Final score to show
  */
