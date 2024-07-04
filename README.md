@@ -180,6 +180,7 @@ When the user finishes with the quiz:
  + [Git](https://git-scm.com/) facilitated version control, with [Git Hub](https://github.com/) serving as the repository.
  + [Balsamiq](https://balsamiq.com/) aided in creating wireframes for project visualization.
  + [Chrome Developer Tools](https://developer.chrome.com/docs/devtools) to view screen responsiveness on different screens and tools to test the  website.
+ + [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) were used about the color scheme in the project.
 
  ## Testing
 
