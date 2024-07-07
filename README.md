@@ -33,12 +33,12 @@ The project is a web-based quiz application designed to evaluate users' knowledg
 
 * As a user, I want immediate feedback on my answers so that I can learn from my mistakes. When I answer a question, I want to know immediately if my answer is correct or incorrect.
 
-* As a user, I want the quiz to be responsive so that I can take it on any device, whether my phone, tablet, or computer. This includes ensuring that the layout adjusts smoothly to different screen sizes and that all interactive elements (like buttons and text fields) are easily usable on both touchscreens and traditional displays.
+* As a user, I want the quiz to be responsive so that I can take it on any device, whether my phone, tablet, or computer. This includes ensuring that the layout adjusts smoothly to different screen sizes and that all interactive elements (like buttons and text fields) are easily usable on touchscreens and traditional displays.
 
  ## Features
 **Our Header**
 
-+ The header displays the name of the quiz at the top of the screen. 
++ The header displays the quiz's name at the top of the screen. 
 + It remains fixed in position throughout the game, serving as a constant reminder to the user of the quiz they are participating in.
 
  ![Header](readme-screenshots/features/header.png)
@@ -80,7 +80,7 @@ Which will be visible until the end of the quiz.
 + The initial quiz question is prominently displayed under the motivational message.
 
 3. Possible Answers:
-+ Four possible answers are given below the question. Depending on the answer type (true/false), the score indicator will be updated for correct and incorrect answers
++ Four possible answers are given below the question. Depending on the answer type (true/false), the score indicator will be updated for correct and incorrect answers.
 
 4. Navigation to Next Question:
 + Upon selecting an answer, the user is automatically directed to the subsequent question along with its set of possible answers.
@@ -117,7 +117,7 @@ After the user answers all the quiz questions, the question and answer section i
 
  + Its primary function is to reset all quiz elements and settings to their initial state. This includes clearing user progress, scores, or any changes made during the previous gameplay session.
 
- + The modal box initially displays a small message to attract the user's attention. This is followed by a concise question to ensure the user truly wants to restart the qiuz. The modal then presents two buttons: one to confirm the restart and another to continue the quiz.
+ + The modal box initially displays a small message to attract the user's attention. This is followed by a concise question to ensure the user truly wants to restart the quiz The modal then presents two buttons: one to confirm the restart and another to continue the quiz.
 
  ![Footer Pop-up Image](readme-screenshots/features/restartOnClick.png)
 
@@ -154,7 +154,7 @@ This is the color scheme with all colors used in the project!
 
  ## Wireframes
 
-In the planning stage to create wireframes, an app called Balsamiq, which you can find in the next section - `Technology Used` .
+In the planning stage to create wireframes, an app called Balsamiq, which you can find in the next section - `Technology Used`.
 
 When the user opens the website:
 
@@ -164,7 +164,7 @@ When the user starts to play the quiz:
 
 ![Wireframe when you play the quiz](readme-screenshots/wireframePlay.png)
 
-When the user click to restart the quiz:
+When the user clicks to restart the quiz:
 
 ![Wireframe when you restart the quiz](readme-screenshots/wireframeRestart.png)
 
@@ -180,17 +180,17 @@ When the user finishes with the quiz:
  + [Git](https://git-scm.com/) facilitated version control, with [Git Hub](https://github.com/) serving as the repository.
  + [Balsamiq](https://balsamiq.com/) aided in creating wireframes for project visualization.
  + [Chrome Developer Tools](https://developer.chrome.com/docs/devtools) to view screen responsiveness on different screens and tools to test the  website.
- + [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) were used about the color scheme in the project.
+ + [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) was used for the color scheme in the project.
 
  ## Testing
 
 ### Code Validation
 
 * The code was tested with [W3C Markup Validator](https://validator.w3.org/) and it was found a warning and a bug.
-* [Click here to see the Result without bugs or warnings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F)
-* The code was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) without any bugs [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [Click here to see the Result without bugs or warnings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F).
+* The code was tested with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) without any bugs [Result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fivost98.github.io%2Fanime-one-piece-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 * After the [JSHint Validator](https://jshint.com/) was found that there were two undefined variables and missing semicolons. Without any
-significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
+significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs).
   + There are 10 functions in this file.
   + Function with the largest signature take 1 arguments, while the median is 0.
   + Largest function has 9 statements in it, while the median is 4.5.
@@ -200,7 +200,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 1. After [W3C Markup Validator](https://validator.w3.org/).
 * The warning after the [W3C Markup Validator](https://validator.w3.org/) was that - `Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed`. 
 * The warning you can find [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/65d1fa209420c08aad57c8145e03d0b8afae4a5f) and how was fixed.
-* The [bug](https://github.com/IvoSt98/anime-one-piece-quiz/commit/25f51c8edbd5e8890762c07fc3e2ffec0f99f641) it was because the ul tag it was to the wrong place, the bug was fixed.
+* The [bug](https://github.com/IvoSt98/anime-one-piece-quiz/commit/25f51c8edbd5e8890762c07fc3e2ffec0f99f641) was because the ul tag was in the wrong place, the bug was fixed.
 
 2. After [JSHint Validator](https://jshint.com/).
 * After [JSHint Validator](https://jshint.com/) you can find the code [here](https://github.com/IvoSt98/anime-one-piece-quiz/commit/c1742081716b00f7b8d88419ee4572049857c6b2) and how was fixed.
@@ -235,10 +235,10 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 | Feature | Test steps | Expectation | Result |
 |-----    |----------    |----------   |--------|
 | First loading of the page |1. Open the website URL. 2. Observe the elements displayed on the page.| The header, instruction section, and the button PLAY are displayed correctly. | Pass |
-| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| The instructions section is hidden, the first question and answer buttons appear, the scoring area is visible and the RESTART button shows up corectly. | Pass |
-| Answer Buttons Onclick | 1. Click one of the answer buttons. 2. Observe the score area.| Score area updates with correct or incorrect answer count. After that show the next question with possible answers. The RESTART button countinue to stay untill the end of the quiz. | Pass |
-| When the game ends | 1. Answer all questions in the quiz. 2. Observe the final screen.| The instruction section and questions are hidden, and a congratulatory message with score details appears. Under the section the RESTART button still stay on a possition.| Pass |
-| Restart Button Onclick | 1. Click the 'Restart' button at any time. 2. Observe the changes on the screen. |When the RESTART button is clicked, a confirmation modal box is triggered to appear. The modal box initiates with an appropriate image, followed by a warning message and a question, accompanied by 'Yes, i would like.' and 'No,countinue.' buttons. Upon pressing the 'Yes, i would like.' button, the entire questionnaire resets, starting from the beginning. Pressing the 'No,countinue.' button closes the modal box and the quiz resumes from its current state. | Pass |
+| Play Now Onclick | 1. Click the 'Play Now' button. 2. Observe the changes on the screen.| The instructions section is hidden, the first question and answer buttons appear, the scoring area is visible and the RESTART button shows up correctly. | Pass |
+| Answer Buttons Onclick | 1. Click one of the answer buttons. 2. Observe the score area.| Score area updates with correct or incorrect answer count. After that show the next question with possible answers. The RESTART button continues to stay until the end of the quiz. | Pass |
+| When the game ends | 1. Answer all questions in the quiz. 2. Observe the final screen.| The instruction section and questions are hidden, and a congratulatory message with score details appears. Under the section, the RESTART button still stays in position.| Pass |
+| Restart Button Onclick | 1. Click the 'Restart' button at any time. 2. Observe the changes on the screen. |When the RESTART button is clicked, a confirmation modal box is triggered to appear. The modal box initiates with an appropriate image, followed by a warning message and a question, accompanied by 'Yes, I would like.' and 'No, continue.' buttons. Upon pressing the 'Yes, i would like.' button, the entire questionnaire resets, starting from the beginning. Pressing the 'No,countinue.' button closes the modal box and the quiz resumes its current state. | Pass |
 
 #### Explaining:
 1. First Loading of the Page
@@ -256,7 +256,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
  Description: Test the functionality of the 'Play Now' button to start the quiz.
 + Click the 'Play Now' button.
 + Verify if the instructions section is hidden and the quiz questions appear.
-+ Expected Result: The instructions section should be hidden, and the first question with answer buttons, score area should be displayed and the RESTART button shows up corectly..
++ Expected Result: The instructions section should be hidden, the first question with answer buttons, the scoring area should be displayed and the RESTART button should show up correctly.
 + Status: Pass
 
 ![Play button onclick](readme-screenshots/playButtonPressed.png)
@@ -266,7 +266,7 @@ significant bugs. The problems are fixed and it can be seen in [Bugs](#bugs)
 Description: Ensure that clicking an answer button updates the scoring  area.
 + Click one of the answer buttons.
 + Observe the score area for updates.
-+ Expected Result: The score area should update with the correct or incorrect answer count. The RESTART button countinue to stay untill the end of the quiz.
++ Expected Result: The score area should update with the correct or incorrect answer count. The RESTART button continues to stay until the end of the quiz.
 + Status: Pass
 
 About the correct score:
@@ -279,7 +279,7 @@ About the incorrect score:
 Description: Verify the behavior when all quiz questions are answered.
 + Answer all the questions in the quiz.
 + Observe the final screen after the last question.
-+ Expected Result: The instruction section and questions are hidden, and a congratulatory message with score details appears. Under the section the RESTART button still stay on a possition.
++ Expected Result: The instruction section and questions are hidden, and a congratulatory message with score details appears. Under the section, the RESTART button still stays in position.
 + Status: Pass
 
 ![End the game](readme-screenshots/endGame.png)
@@ -289,23 +289,23 @@ Description: Verify the behavior when all quiz questions are answered.
 Description: Test the functionality of the 'Restart' button to reset the quiz.
 + Click the 'Restart' button at any point during the quiz.
 + Observe the changes on the screen.
-+ Expected Result: When the RESTART button is clicked, a confirmation modal box is triggered to appear. The modal box initiates with an appropriate image, followed by a warning message and a question, accompanied by 'Yes, i would like.' and 'No,countinue.' buttons. Upon pressing the 'Yes, i would like.' button, the entire questionnaire resets, starting from the beginning. Pressing the 'No,countinue.' button closes the modal box and the quiz resumes from its current state."
++ Expected Result: When the RESTART button is clicked, a confirmation modal box is triggered to appear. The modal box initiates with an appropriate image, followed by a warning message and a question, accompanied by 'Yes, i would like.' and 'No, continue.' buttons. Upon pressing the 'Yes, I would like.' button, the entire questionnaire resets, starting from the beginning. Pressing the 'No,countinue.' button closes the modal box and the quiz resumes from its current state."
 + Status: Pass
 
 ![Restart the quiz](readme-screenshots/afterRestartIsClicked.png)
 
-After the button "Yes, i would like" is clicked:
+After the button "Yes, I would like" is clicked:
 
 ![Restart the quiz YES ](readme-screenshots/startQuizEndQuiz.png)
 
-Ater the button "No, countinue." is cliked:
+After the button "No, continue." is clicked:
 
 ![Restart the quiz NO ](readme-screenshots/correctAnswer.png)
 
 
 6. Conclusion
 
-All tested features of the [One Piece Anime Quiz Website](https://ivost98.github.io/anime-one-piece-quiz/). function as expected. The website provides a smooth and engaging user experience, with all key functionalities working correctly. Future tests should include additional scenarios as new features are implemented
+All tested features of the [One Piece Anime Quiz Website](https://ivost98.github.io/anime-one-piece-quiz/). Function as expected. The website provides a smooth and engaging user experience, with all key functionalities working correctly. Future tests should include additional scenarios as new features are implemented.
 
 ## Deployment
 
@@ -313,6 +313,12 @@ All tested features of the [One Piece Anime Quiz Website](https://ivost98.github
 
 The project was deployed to GitHub Pages using the following steps...
 
+Before the deployment of the project:
+1. With the command `git add.`, all at the command line prompt in your local project directory to add the files or changes to the repository.
+2. After, the command `git commit -m` permanently stores the contents of the index in the local repository.
+3. In the end, `git push` is used - to upload local repository content to a remote repository.
+
+Deployment of the project:
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/IvoSt98/anime-one-piece-quiz?tab=readme-ov-file#future-features)
 2. At the top of the Repository (not the top of the page), locate the "Settings" Button on the menu.
 -Alternatively, Click [Here](https://github.com/IvoSt98/anime-one-piece-quiz/settings) for a GIF demonstrating the process starting from Step 2.
@@ -345,10 +351,10 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ### Content
 + The idea for the score section is from [Love Maths Project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode/blob/master/01-putting-the-basics-in-place/02-writing-some-html-part1/index.html).
-+ Guidance about Java Script code is from [Code Institute](https://codeinstitute.net/de/bildungsgutschein/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=16493764737&hsa_grp=132915436966&hsa_ad=635790877675&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw-O6zBhASEiwAOHeGxUZA9Vmia-upw7RdcmqjkSctoFqm75GZYhMuyr6GjIB2UdizcDwlnxoCHLgQAvD_BwE), [Stack Overflow](https://stackoverflow.com/), [W3Schools](https://www.w3schools.com/).
++ Guidance about Java Script code is from [Code Institute](https://codeinstitute.net/de/bildungsgutschein/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=16493764737&hsa_grp=132915436966&hsa_ad=635790877675&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjw-O6zBhASEiwAOHeGxUZA9Vmia-upw7RdcmqjkSctoFqm75GZYhMuyr6GjIB2UdizcDwlnxoCHLgQAvD_BwE), [Stack Overflow](https://stackoverflow.com/), [ and W3Schools](https://www.w3schools.com/).
 + The idea and part of the code for the Modal Box were seen and taken from [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp).
 + The font utilized in this website is from [Google Fonts](https://fonts.google.com/).
 
 ### Media
 + The background image was taken from [Alpha Coders](https://wall.alphacoders.com/big.php?i=1099923).
-+ The Pop-Up image when the Restart button is clicked it's taken from [Pinterest DEIVISCC on DeviantArt](https://www.pinterest.com/pin/691021136561159205/).
++ The Pop-Up image when the Restart button is clicked is taken from [Pinterest DEIVISCC on DeviantArt](https://www.pinterest.com/pin/691021136561159205/).
