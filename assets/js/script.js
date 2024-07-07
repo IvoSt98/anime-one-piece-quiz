@@ -172,6 +172,7 @@ function finishQuiz() {
 function restartGame() {
     restartButton = modalDiv.style.display = "block";
 }
+
 /** When the user choose the possible answer yes from the modalDiv 
  * then the quiz will start at the begining, will hide 
  * everything and will leave only the instructionsArea
